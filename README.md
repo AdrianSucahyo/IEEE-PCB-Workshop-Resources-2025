@@ -15,13 +15,30 @@ __Workshop Goals__
 
 - Introduction to PCB design
 - Introduction to ECAD software (Altium | KiCAD)
-    - Altium will be the ECAD software demonstrated during the session, however KiCAD planned to be supported)
+    - Altium will be the ECAD software demonstrated during the session, however KiCAD planned to be supported (limited)
 - Introduction to Schematic Layout
 - Introduction to PCB Layout
 - Basics of PCB Manufacturing
 - Introduction to Soldering
     - We will offer different levels: Basic Through Hole, Intermediate Surface Mount, and Advanced Surface Mount
 - Introduction to Verification and Debugging
+
+## ECAD Software
+
+### ALTIUM Designer (Highly Recommended)
+Altium is the software that is going to be desmonstrated during the workshop and will be the easiest to follow along. All resources provided will be natively supported in Altium Designer.
+
+If you plan to use Altium, please complete the instructions for registering and installing Altium on a personal machine. This allows us to immediately begin our workshop sessions without troubleshooting.
+
+Altium License Instructions:
+https://docs.google.com/document/d/1AU2HPewD7sdPoBuVvdMO27dwBopvW5h48ppQYsgPDJ0/edit?usp=sharing
+
+### KiCAD
+
+Please install KiCAD if you are not using Altium. While we do support this program, as KiCAD can import Altium files, we will be focusing on Altium Designer.
+
+KiCAD Official Page:
+https://www.kicad.org/
 
 ## Schedule
 
@@ -43,3 +60,10 @@ While it is recommended to attend all sessions, we will provide the design and w
 
 - Questions may be routed to the IEEE email: ieee.studentbranch.uofu@gmail.com
 - Updates are also posted on the IEEE / ECE discord: https://discord.gg/TMjhuDCCfy
+
+## Sign-Up Flyer
+
+Sign-Up Form:
+https://forms.gle/mb3GaEBPHUk1RxPPA
+
+![Sign Up Flyer](/Images/IEEE%20x%20FSAE%20PCB%20Design%20Workshop.png)
