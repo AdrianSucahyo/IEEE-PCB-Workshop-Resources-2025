@@ -44,7 +44,7 @@ https://www.kicad.org/
 
 | DATE   | SESSION NAME | LINK |
 |--------|--------------|------|
-| Feb 5  | Introduction to Schematics (Power Supply) | [Week 01]() |
+| Feb 4  | Introduction to Schematics (Power Supply) | [Week 01]() |
 | Feb 11 | Introduction to PCB Layout (Power Supply) | [Week 02]() |
 | Feb 18 | Intermediate Schematic Design (ESP32 LED Matrix) | [Week 03]() |
 | Feb 25 | Intermediate PCB Design (ESP32 LED Matrix) | [Week 04]() |
