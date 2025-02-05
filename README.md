@@ -44,15 +44,15 @@ https://www.kicad.org/
 
 | DATE   | SESSION NAME | LINK |
 |--------|--------------|------|
-| Feb 4  | Introduction to Schematics (Power Supply) | [Week 01]() |
-| Feb 11 | Introduction to PCB Layout (Power Supply) | [Week 02]() |
-| Feb 18 | Intermediate Schematic Design (ESP32 LED Matrix) | [Week 03]() |
-| Feb 25 | Intermediate PCB Design (ESP32 LED Matrix) | [Week 04]() |
-| Mar 4  | Manufacturing and More | [Week 05]() |
-| Mar 18 | Introduction to Soldering (Power Supply - Surface Mount) | [Week 06]() |
-| Mar 25 | Introduction to Soldering (Power Supply - Through Hole) | [Week 07]() |
-| Apr 8  | Advanced Board Assembly (ESP32 Pick and Place) | [Week 08]() |
-| Apr 15 | Final Notes | [Week 09]() |
+| Feb 4  | Introduction to Schematics (Power Supply) | [Week 01](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week01) |
+| Feb 11 | Introduction to PCB Layout (Power Supply) | [Week 02](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week02) |
+| Feb 18 | Intermediate Schematic Design (ESP32 LED Matrix) | [Week 03](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week03) |
+| Feb 25 | Intermediate PCB Design (ESP32 LED Matrix) | [Week 04](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week04) |
+| Mar 4  | Manufacturing and More | [Week 05](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week05) |
+| Mar 18 | Introduction to Soldering (Power Supply - Surface Mount) | [Week 06](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week06) |
+| Mar 25 | Introduction to Soldering (Power Supply - Through Hole) | [Week 07](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week07) |
+| Apr 8  | Advanced Board Assembly (ESP32 Pick and Place) | [Week 08](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week08) |
+| Apr 15 | Final Notes | [Week 09](https://github.com/AdrianSucahyo/IEEE-PCB-Workshop-Resources-2025/tree/main/Week09) |
 
 While it is recommended to attend all sessions, we will provide the design and workshop files through a GitHub repository. To stay up to date, please be sure to follow along to not fall behind.
 
