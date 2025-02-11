@@ -7,6 +7,8 @@ Welcome to the IEEE PCB Workshop Series for Spring 2025 at the University of Uta
 
 We will be hosting these workshops over 9 weeks this semester, currently scheduled for Tuesdays at 5:15 PM to 6:15 PM beginning February 4th and ending April 15th. Sessions may go overtime to 6:45 PM depending on the topic covered. To help alleviate these longer sessions, food may be provided (tentatively planned). All planned dates are shown below.
 
+The workshops will be held in WEB2230 unless otherwise specified.
+
 There will be two main projects presented and all participants are invited to participate in designing, manufacturing, and assembling their own PCBs, which they will be able to keep at the end. The two projects to be presented are the following:
 - Variable Switching Breadboard Power Supply
 - ESP32 LED Matrix
