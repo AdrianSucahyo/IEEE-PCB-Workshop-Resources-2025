@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+3.3 Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C9-2
+Removed Pin From Net: NetName=+3.3 Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Removed Pin From Net: NetName=+3.3 Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Member From Class: ClassName=ESP32_LED_Matrix Member=C11
+Removed Member From Class: ClassName=ESP32_LED_Matrix Member=C12
+Removed Member From Class: ClassName=ESP32_LED_Matrix Member=C13
+Change Component Designator: OldDesignator=C10 NewDesignator=C9
+Change Component Designator: OldDesignator=C12 NewDesignator=C10

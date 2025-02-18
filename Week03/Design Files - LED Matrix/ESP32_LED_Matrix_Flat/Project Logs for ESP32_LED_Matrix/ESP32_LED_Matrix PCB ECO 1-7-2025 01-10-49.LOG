@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=UPDI_TX Pin=R15-2
+Removed Pin From Net: NetName=UPDI_RX Pin=R18-2
+Removed Member From Class: ClassName=ESP32_LED_Matrix Member=R31
+Removed Member From Class: ClassName=ESP32_LED_Matrix Member=R32
+Change Component Designator: OldDesignator=R16 NewDesignator=R15
+Change Component Designator: OldDesignator=R17 NewDesignator=R16
+Change Component Designator: OldDesignator=R19 NewDesignator=R17
+Change Component Designator: OldDesignator=R20 NewDesignator=R18
+Change Component Designator: OldDesignator=R21 NewDesignator=R19
+Change Component Designator: OldDesignator=R22 NewDesignator=R20
+Change Component Designator: OldDesignator=R23 NewDesignator=R21
+Change Component Designator: OldDesignator=R24 NewDesignator=R22
+Change Component Designator: OldDesignator=R25 NewDesignator=R23
+Change Component Designator: OldDesignator=R26 NewDesignator=R24
+Change Component Designator: OldDesignator=R27 NewDesignator=R25
+Change Component Designator: OldDesignator=R28 NewDesignator=R26
+Change Component Designator: OldDesignator=R29 NewDesignator=R27
+Change Component Designator: OldDesignator=R30 NewDesignator=R28
+Change Component Designator: OldDesignator=R31 NewDesignator=R29
+Change Component Designator: OldDesignator=R32 NewDesignator=R30
+Added Pin To Net: NetName=UPDI_TX Pin=H5-2
+Added Pin To Net: NetName=UPDI_RX Pin=H5-3
+Change Net Name : Old Net Name=NetR31_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR31_2 New Net Name=NetR29_2

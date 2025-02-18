@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=COL_DS Pin=H2-4
+Removed Pin From Net: NetName=COL_OE Pin=H2-5
+Removed Pin From Net: NetName=COL_DS Pin=U1-6
+Removed Pin From Net: NetName=COL_OE Pin=U1-7
+Removed Pin From Net: NetName=GPIO17 Pin=U6-2
+Removed Pin From Net: NetName=GPIO18 Pin=U6-13
+Added Pin To Net: NetName=COL_OE Pin=H2-4
+Added Pin To Net: NetName=COL_DS Pin=H2-5
+Added Pin To Net: NetName=COL_OE Pin=U1-6
+Added Pin To Net: NetName=COL_DS Pin=U1-7
+Added Pin To Net: NetName=GPIO18 Pin=U6-2
+Added Pin To Net: NetName=GPIO17 Pin=U6-13
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component C9 100n
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component C10 100n

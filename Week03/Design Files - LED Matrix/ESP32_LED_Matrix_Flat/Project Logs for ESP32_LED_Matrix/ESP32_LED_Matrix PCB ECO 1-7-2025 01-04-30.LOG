@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=EXT_SUPP_EN Pin=U2-3
+Removed Pin From Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=NetC6_1 Pin=U2-3
+Added Pin To Net: NetName=EXT_SUPP_EN Pin=U2-5
+Change Net Name : Old Net Name=NetC6_1 New Net Name=USB_SUPP_EN
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R5 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R7 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R8 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R10 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R12 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R13 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R15 0
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R17 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R19 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R21 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R23 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R25 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R27 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R29 5.11k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R31 1k

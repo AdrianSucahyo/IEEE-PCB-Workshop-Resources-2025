@@ -1,0 +1,23 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ESP32_LED_Matrix.PrjPcb]
+   Generated File[ESP32_LED_Matrix.GTO]
+   Generated File[ESP32_LED_Matrix.GTP]
+   Generated File[ESP32_LED_Matrix.GTS]
+   Generated File[ESP32_LED_Matrix.GTL]
+   Generated File[ESP32_LED_Matrix.GBL]
+   Generated File[ESP32_LED_Matrix.GBS]
+   Generated File[ESP32_LED_Matrix.GBP]
+   Generated File[ESP32_LED_Matrix.GBO]
+   Generated File[ESP32_LED_Matrix.GM1]
+   Generated File[ESP32_LED_Matrix.GM13]
+   Generated File[ESP32_LED_Matrix.GM15]
+   Generated File[ESP32_LED_Matrix.GM]
+   Generated File[ESP32_LED_Matrix.EXTREP]
+   Generated File[ESP32_LED_Matrix.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 22:30:05 On 1/12/2025

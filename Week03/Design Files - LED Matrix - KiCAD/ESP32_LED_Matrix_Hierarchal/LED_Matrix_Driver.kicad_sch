@@ -1,0 +1,11184 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a8c896fc-4f1e-47cf-b745-d8c5efb68966")
+	(paper "A3")
+	(lib_symbols
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '+3.3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "+3.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_74HC595"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shift Register"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TSSOP16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_0_74HC595_1_0"
+				(rectangle
+					(start 25.4 2.54)
+					(end 5.08 -25.4)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "~{MR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SH_CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "ST_CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "DS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "Q7'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Capacitor - Non Polarized"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Non Polarized Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAP0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_0_Capacitor - Non Polarized_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy 2.54 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.715) (xy -2.54 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Potentiometer"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentionmeter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*3339P1103LF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_0_Potentiometer_1_0"
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -4.445) (xy 1.905 -5.715) (xy 0.635 -5.08) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy 0.635 -2.54) (xy 0.635 -7.62) (xy -0.635 -7.62) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_0_Resistor_1_0"
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy 0.635 -2.54) (xy 0.635 -7.62) (xy -0.635 -7.62) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_mirrored_Capacitor - Non Polarized"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Non Polarized Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAP0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_0_mirrored_Capacitor - Non Polarized_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -5.715) (xy 2.54 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -4.445) (xy -2.54 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_mirrored_STP08DP05TTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED Driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TSSOP16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_0_mirrored_STP08DP05TTR_1_0"
+				(rectangle
+					(start -5.08 2.54)
+					(end -25.4 -25.4)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 180)
+					(length 5.08)
+					(name "OUT5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 180)
+					(length 5.08)
+					(name "OUT6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 180)
+					(length 5.08)
+					(name "OUT7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -15.24 0)
+					(length 5.08)
+					(name "~{OE}/DM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -12.7 0)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -22.86 0)
+					(length 5.08)
+					(name "R-EXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -5.08 0)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -7.62 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -10.16 0)
+					(length 5.08)
+					(name "LE/DM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 5.08)
+					(name "OUT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 180)
+					(length 5.08)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 180)
+					(length 5.08)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_1_Resistor_1_0"
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 2.54 0.635) (xy 7.62 0.635) (xy 7.62 -0.635) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_mirrored_Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_1_mirrored_Resistor_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 0.635) (xy -7.62 0.635) (xy -7.62 -0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOT23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Designator_3_SI2305_1_0"
+				(polyline
+					(pts
+						(xy -3.175 -7.62) (xy -3.81 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -5.08) (xy -3.175 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -8.89) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -8.255) (xy -2.54 -6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.715) (xy -2.54 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -6.985) (xy 1.905 -6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -9.525) (xy -2.54 -9.525)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.255) (xy -1.27 -6.985) (xy 0 -7.62) (xy -1.27 -8.255)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 2.54 -5.08) (xy 2.54 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -8.255) (xy 1.905 -8.255) (xy 2.54 -6.985) (xy 3.175 -8.255)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC_1"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC_1'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_1_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 203.2 83.6422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01629a25-1220-467c-95a9-63ba86940d2a")
+	)
+	(junction
+		(at 355.6 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09d3f9e1-fb95-4003-b27e-9fb37c45802c")
+	)
+	(junction
+		(at 365.76 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "215fef4d-aed6-4b54-87d1-6be5c0ec109f")
+	)
+	(junction
+		(at 314.96 68.4022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2713dbf1-5ead-4cc4-92c1-4c19382819f3")
+	)
+	(junction
+		(at 304.8 83.6422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28c19cdd-2077-432f-819c-3237c7243c22")
+	)
+	(junction
+		(at 304.8 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d53c49c-3327-4622-ba0d-d20167af9208")
+	)
+	(junction
+		(at 254 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a3ffd0f-5fe5-45c8-b434-e73b43527961")
+	)
+	(junction
+		(at 58.42 96.3422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4901a70a-745e-4e7c-9513-41eac849421f")
+	)
+	(junction
+		(at 365.76 68.4022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4f0cb4-a27a-422b-95fd-e579b895b9b7")
+	)
+	(junction
+		(at 45.72 172.5422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5116fa71-5da3-452c-bcc6-4a4bc3a29a75")
+	)
+	(junction
+		(at 365.76 170.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b4eec7-98f2-4402-87a1-bd513a82183b")
+	)
+	(junction
+		(at 254 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5adfb0dd-7731-49a0-acc8-1c2e91e512ba")
+	)
+	(junction
+		(at 264.16 68.4022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bc3a900-1ce9-49ab-a255-8200c1ec7eb4")
+	)
+	(junction
+		(at 355.6 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ae39630-b644-4e8d-b3ac-548311cd0978")
+	)
+	(junction
+		(at 264.16 170.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e9ed443-7041-4fa5-a767-00275d9ef4d2")
+	)
+	(junction
+		(at 264.16 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d0fca04-aeb0-4ac6-aa05-875b30a5c930")
+	)
+	(junction
+		(at 213.36 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bc8fdb4-7dd7-41e8-8e3e-fe95fd62a97d")
+	)
+	(junction
+		(at 213.36 68.4022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6adbee9-bc80-469f-a878-d8a3326f6fdb")
+	)
+	(junction
+		(at 355.6 83.6422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7cce6c7-3484-4c54-9f62-efaa8ce3d024")
+	)
+	(junction
+		(at 314.96 119.2022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bce5dc3d-61f7-4f35-85a0-d9a71a52c51d")
+	)
+	(junction
+		(at 254 83.6422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb46e31f-c35f-4044-8151-89fdbd771416")
+	)
+	(junction
+		(at 203.2 185.2422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7786b8-3d38-426c-87ed-e6548733566e")
+	)
+	(junction
+		(at 203.2 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deb43ab4-94d5-40d7-8d96-9d80232638eb")
+	)
+	(junction
+		(at 58.42 53.1622)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0fd2b62-7a31-4b6c-be66-12398ae79e5d")
+	)
+	(junction
+		(at 213.36 170.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e73be501-198c-4625-a87f-f1e28e55d65b")
+	)
+	(junction
+		(at 304.8 134.4422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda23b1a-758b-4cf4-8ae6-fa66ce4609e9")
+	)
+	(junction
+		(at 314.96 170.0022)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d82fce-80f4-42c2-bcc3-f36cd6a8189f")
+	)
+	(no_connect
+		(at 60.96 119.2022)
+		(uuid "3f6ba092-9f8f-471a-9c15-ca7258adfa4a")
+	)
+	(no_connect
+		(at 91.44 53.1622)
+		(uuid "66494f62-8c00-42f2-91be-cd9977d3d97e")
+	)
+	(no_connect
+		(at 91.44 111.5822)
+		(uuid "a07b773c-ace2-4e07-920f-4d08c6adb3ea")
+	)
+	(no_connect
+		(at 60.96 157.3022)
+		(uuid "a0cf7684-f886-45e5-b5e5-b83e3e9e7238")
+	)
+	(no_connect
+		(at 91.44 114.1222)
+		(uuid "c463c723-be44-4f61-bd61-141ea9a64baf")
+	)
+	(no_connect
+		(at 91.44 96.3422)
+		(uuid "fcb2ee78-c79c-4565-9bf9-e838a3105275")
+	)
+	(bus_entry
+		(at 231.14 134.4422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0988e12b-1044-4a19-976e-39241e0b2eaa")
+	)
+	(bus_entry
+		(at 177.8 81.1022)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5eb68b-3152-44a0-82ce-f1a72d9ae3f2")
+	)
+	(bus_entry
+		(at 114.3 53.1622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19929bc4-c71e-47bd-8775-168f46d8f6af")
+	)
+	(bus_entry
+		(at 111.76 147.1422)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d88d43f-67d4-4416-b5e2-16845a32b98b")
+	)
+	(bus_entry
+		(at 180.34 134.4422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257ecbff-f153-4a35-a793-6688e5e12a54")
+	)
+	(bus_entry
+		(at 332.74 185.2422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b1a02f-f6b3-476e-a3a8-0d605645de5d")
+	)
+	(bus_entry
+		(at 114.3 103.9622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cadf37a-7422-4c26-8964-bb510cd4e31d")
+	)
+	(bus_entry
+		(at 365.76 103.9622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6c78f0-3dd7-4015-b584-8c00d931505f")
+	)
+	(bus_entry
+		(at 114.3 63.3222)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed825ed-27a9-40d2-8c57-16e0a61a3f30")
+	)
+	(bus_entry
+		(at 111.76 162.3822)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9f6206-ea43-4ba4-862e-e887b5ec894b")
+	)
+	(bus_entry
+		(at 111.76 159.8422)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385b07c7-067a-4dc7-a5a6-b20fbdad435f")
+	)
+	(bus_entry
+		(at 314.96 103.9622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a11b527-e412-4c1c-8d54-0405087589a4")
+	)
+	(bus_entry
+		(at 365.76 205.5622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aed5380-eb7d-4c2a-a83b-ea62e842353e")
+	)
+	(bus_entry
+		(at 281.94 185.2422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be507af-e476-4cd5-a2f7-40e3e52233b6")
+	)
+	(bus_entry
+		(at 281.94 134.4422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "456ef020-9131-476f-aaf5-2ec08122e6ff")
+	)
+	(bus_entry
+		(at 365.76 154.7622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49814713-5ed5-489a-b4f7-528d9337152f")
+	)
+	(bus_entry
+		(at 332.74 83.6422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cb4024-3aac-4b19-b9ac-0a0eda0ace58")
+	)
+	(bus_entry
+		(at 231.14 83.6422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de29440-27e5-480c-92d1-90c3d4f16d24")
+	)
+	(bus_entry
+		(at 281.94 83.6422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e45f1cd-ef86-428a-8904-2ba146728750")
+	)
+	(bus_entry
+		(at 231.14 185.2422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc28d17-6a63-4f71-bb96-4334509a97d6")
+	)
+	(bus_entry
+		(at 111.76 149.6822)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7007bbfe-f567-4963-aab0-83b4c87ff7dd")
+	)
+	(bus_entry
+		(at 114.3 106.5022)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cc25fa-88d1-4044-8517-877c84754532")
+	)
+	(bus_entry
+		(at 111.76 152.2222)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e9d6c3-e329-4eb6-9b1e-9f90dfb35b6a")
+	)
+	(bus_entry
+		(at 314.96 205.5622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed90b53-9c65-4ccf-9572-c7a048cd684d")
+	)
+	(bus_entry
+		(at 114.3 98.8822)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa4ca0c-a32c-4a27-92e9-96e5ff5ccbde")
+	)
+	(bus_entry
+		(at 180.34 185.2422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956817d6-81b2-464c-8091-0481bf5e5299")
+	)
+	(bus_entry
+		(at 264.16 154.7622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd166e4-1ddc-4ae9-97ae-fa4f0f65a517")
+	)
+	(bus_entry
+		(at 114.3 101.4222)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab807fb1-5b7d-4d5f-8393-dad16e616d43")
+	)
+	(bus_entry
+		(at 114.3 60.7822)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76ddb95-1321-46d3-bd29-54061210eea4")
+	)
+	(bus_entry
+		(at 264.16 205.5622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc61d9a3-5e5e-46ed-8922-c8d679f82150")
+	)
+	(bus_entry
+		(at 111.76 157.3022)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1e4ed2-1cdc-4299-a03a-449536a5b2b2")
+	)
+	(bus_entry
+		(at 213.36 205.5622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfe74ea-327c-452c-8ec3-efbb07cb9df3")
+	)
+	(bus_entry
+		(at 114.3 58.2422)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0179054-1ad0-464d-b859-50129ffe9714")
+	)
+	(bus_entry
+		(at 213.36 103.9622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c4a512-08b8-4b89-a3b5-dfc6915b4cd9")
+	)
+	(bus_entry
+		(at 114.3 68.4022)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5001d53-20ec-468f-8c7d-bebdca214529")
+	)
+	(bus_entry
+		(at 314.96 154.7622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c161fa-7b8e-4db5-a346-6beae02fa185")
+	)
+	(bus_entry
+		(at 111.76 154.7622)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8bbff1-2889-4d29-903a-33826c51b74a")
+	)
+	(bus_entry
+		(at 114.3 65.8622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32aa17c-e762-404c-8cb5-e34bcd600248")
+	)
+	(bus_entry
+		(at 114.3 96.3422)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c8e0cd-c4ec-4ff2-b41f-5872bfae48d0")
+	)
+	(bus_entry
+		(at 332.74 134.4422)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ab6deb-e2eb-4e86-9939-82bd41e6fbbe")
+	)
+	(bus_entry
+		(at 213.36 154.7622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5e6477-02b2-4df7-a9c1-720abda1de8e")
+	)
+	(bus_entry
+		(at 264.16 103.9622)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec06e82e-4b60-4319-be9a-040988e0777a")
+	)
+	(bus_entry
+		(at 114.3 55.7022)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52593c1-5aaa-4f76-ba96-9268005cc7c1")
+	)
+	(bus_entry
+		(at 111.76 144.6022)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a5097c-0439-40f0-b1a8-ce4406261c49")
+	)
+	(wire
+		(pts
+			(xy 60.96 144.6022) (xy 58.42 144.6022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005cba06-34fa-4a19-9885-69567468ed13")
+	)
+	(bus
+		(pts
+			(xy 114.3 147.1422) (xy 114.3 144.6022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "00fa9f5b-5b4a-4226-88b3-92fdc6b597ec")
+	)
+	(bus
+		(pts
+			(xy 114.3 58.2422) (xy 114.3 55.7022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0187c436-d040-4432-8224-02177acd8f9c")
+	)
+	(bus
+		(pts
+			(xy 114.3 144.6022) (xy 114.3 142.0622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "02384f5f-e3b2-40f5-b2d4-d8607aaccaf8")
+	)
+	(wire
+		(pts
+			(xy 314.96 142.0622) (xy 314.96 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f76963-34d6-48b3-91c7-821413ec46c3")
+	)
+	(wire
+		(pts
+			(xy 353.06 134.4422) (xy 355.6 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fcf003-d9cf-4cd0-87a5-c6b33cb58d4d")
+	)
+	(wire
+		(pts
+			(xy 314.96 76.0222) (xy 314.96 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04182adb-53c4-41d3-88a2-b647e7d3db3e")
+	)
+	(wire
+		(pts
+			(xy 111.76 103.9622) (xy 91.44 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0468b25d-8b0e-4e57-87f9-40f184b8dfba")
+	)
+	(bus
+		(pts
+			(xy 114.3 65.8622) (xy 114.3 63.3222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "04f5af16-9500-41f7-ba1c-c807e297692f")
+	)
+	(bus
+		(pts
+			(xy 172.72 157.3022) (xy 170.18 159.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "091e99bb-16d1-4030-9b87-b569affec6bd")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.3222) (xy 91.44 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095b8938-c98f-456b-a27c-54820662b58d")
+	)
+	(bus
+		(pts
+			(xy 363.22 106.5022) (xy 312.42 106.5022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0ad888de-42c4-402b-9a16-7bdac5e25b05")
+	)
+	(wire
+		(pts
+			(xy 365.76 76.0222) (xy 365.76 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd66a17-0cbd-43ea-b6ce-2915744545aa")
+	)
+	(wire
+		(pts
+			(xy 355.6 119.2022) (xy 355.6 121.7422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc17a6b-d13d-4fb0-ac2e-7e05ef948800")
+	)
+	(bus
+		(pts
+			(xy 363.22 157.3022) (xy 312.42 157.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0d548500-3f21-4fe7-9cfc-98c74a239f7c")
+	)
+	(wire
+		(pts
+			(xy 365.76 119.2022) (xy 365.76 116.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7e0ca3-4ae4-46a6-8e3f-89bca904cccf")
+	)
+	(wire
+		(pts
+			(xy 355.6 185.2422) (xy 358.14 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e99f832-65a3-4d65-a3ca-078df275414a")
+	)
+	(wire
+		(pts
+			(xy 43.18 228.4222) (xy 22.86 228.4222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4f6a6d-5d07-4623-98a6-0b03cb3746fc")
+	)
+	(wire
+		(pts
+			(xy 355.6 131.9022) (xy 355.6 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11993449-b43e-4346-a686-96ce3fa2d69f")
+	)
+	(wire
+		(pts
+			(xy 254 134.4422) (xy 256.54 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124dbf11-6d3e-49fc-918d-168d6cf2121c")
+	)
+	(wire
+		(pts
+			(xy 304.8 81.1022) (xy 304.8 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f85a1e-cb2b-4b45-83b8-7879a39a136a")
+	)
+	(wire
+		(pts
+			(xy 17.78 109.0422) (xy 17.78 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1525b20e-29d6-4181-82ee-f62fc435ef5e")
+	)
+	(bus
+		(pts
+			(xy 330.2 131.9022) (xy 330.2 182.7022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "152a33a8-70bb-488a-9c55-7c76e6e0478f")
+	)
+	(wire
+		(pts
+			(xy 304.8 170.0022) (xy 304.8 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f04c6e-3657-4b18-b069-c96687fa4eb8")
+	)
+	(wire
+		(pts
+			(xy 365.76 192.8622) (xy 365.76 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163d6542-5e64-437a-94aa-a0cc6f0f14f4")
+	)
+	(wire
+		(pts
+			(xy 314.96 177.6222) (xy 314.96 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165b481f-3e7b-447d-815e-42bd653f9acc")
+	)
+	(wire
+		(pts
+			(xy 254 131.9022) (xy 254 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181043e1-c748-44a2-8d34-df44a8f21d6b")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.1422) (xy 91.44 147.1422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1835689e-2b27-4b8a-aab7-c8dd31d7d6b0")
+	)
+	(wire
+		(pts
+			(xy 213.36 177.6222) (xy 213.36 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b6d70c-1cad-4860-a0ab-8d98485830ee")
+	)
+	(wire
+		(pts
+			(xy 213.36 192.8622) (xy 213.36 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a64e10-8d03-411f-ab2d-b2c4999443b2")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.6422) (xy 205.74 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b90ce68-e0f4-49ce-b126-4fe83a292a56")
+	)
+	(wire
+		(pts
+			(xy 213.36 68.4022) (xy 213.36 65.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c42cd95-879a-4442-a521-955ed0bad960")
+	)
+	(wire
+		(pts
+			(xy 60.96 152.2222) (xy 35.56 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e55610f-8457-4bec-be7f-bda4f929c66a")
+	)
+	(wire
+		(pts
+			(xy 264.16 68.4022) (xy 264.16 65.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21223eba-1edb-4b6e-85ae-bc4116046fbc")
+	)
+	(wire
+		(pts
+			(xy 45.72 167.4622) (xy 48.26 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21838bca-6f62-49dd-93da-7eb4706fbb0a")
+	)
+	(wire
+		(pts
+			(xy 111.76 152.2222) (xy 91.44 152.2222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21847812-602e-42f3-ab7c-ff8a89eecd08")
+	)
+	(wire
+		(pts
+			(xy 314.96 119.2022) (xy 304.8 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b77e63-84a4-4549-8573-7c8db48d6c9d")
+	)
+	(wire
+		(pts
+			(xy 17.78 93.8022) (xy 17.78 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2305658c-52bc-4384-9be7-109fb7eec48f")
+	)
+	(wire
+		(pts
+			(xy 304.8 68.4022) (xy 304.8 70.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23578e25-8c0b-4dc6-b24a-e91c9f3c96ac")
+	)
+	(wire
+		(pts
+			(xy 35.56 114.1222) (xy 60.96 114.1222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23689fbc-57a1-4604-abc7-87e70a7d245f")
+	)
+	(wire
+		(pts
+			(xy 304.8 131.9022) (xy 304.8 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27846f17-1976-4216-8e3a-244136253341")
+	)
+	(wire
+		(pts
+			(xy 35.56 70.9422) (xy 60.96 70.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28974c1e-eb0c-49ac-8fef-525e53fee8dd")
+	)
+	(bus
+		(pts
+			(xy 114.3 142.0622) (xy 114.3 116.6622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2adfdb64-ef19-4906-af7b-ede79f17fe6a")
+	)
+	(bus
+		(pts
+			(xy 170.18 109.0422) (xy 170.18 159.8422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2bdb87f3-d1ea-48bf-bde3-25423186d5f6")
+	)
+	(bus
+		(pts
+			(xy 177.8 131.9022) (xy 177.8 81.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2bdcc600-3e74-411b-8fab-f9e9049e843e")
+	)
+	(bus
+		(pts
+			(xy 226.06 50.6222) (xy 276.86 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2d87a59e-aff0-4bea-bfbe-a0ad558aebf4")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.6822) (xy 91.44 149.6822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f91dbe7-f3c1-473e-ad90-3889009870ec")
+	)
+	(bus
+		(pts
+			(xy 177.8 53.1622) (xy 175.26 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "31b3b1e8-20da-4378-99e4-0b613994af7a")
+	)
+	(wire
+		(pts
+			(xy 35.56 103.9622) (xy 60.96 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ae0266-45e5-4cff-afb4-ca17fcf13bff")
+	)
+	(bus
+		(pts
+			(xy 276.86 50.6222) (xy 327.66 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "35fe894d-5c1f-4920-8ad3-e9f93f359077")
+	)
+	(wire
+		(pts
+			(xy 365.76 68.4022) (xy 355.6 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3956ed5e-0d63-4276-9b54-f705e40e632d")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.4022) (xy 58.42 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a789e3-2c83-4abc-88fd-c00febb0cbb8")
+	)
+	(bus
+		(pts
+			(xy 114.3 152.2222) (xy 114.3 149.6822)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3aa963cd-01f7-4bae-8ad5-8a87ec4505ab")
+	)
+	(wire
+		(pts
+			(xy 314.96 68.4022) (xy 314.96 65.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8436c6-0d2f-428f-adf7-1817e2c0bbed")
+	)
+	(bus
+		(pts
+			(xy 114.3 53.1622) (xy 116.84 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3be171c0-f505-4212-88d2-2e561372d9d0")
+	)
+	(wire
+		(pts
+			(xy 365.76 119.2022) (xy 355.6 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce255db-70af-4bf2-984e-195780f35aad")
+	)
+	(wire
+		(pts
+			(xy 342.9 185.2422) (xy 332.74 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e934d9a-bd1e-4d10-9f48-9b4895392546")
+	)
+	(wire
+		(pts
+			(xy 292.1 185.2422) (xy 281.94 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecd3874-ec5c-4bf3-b580-b357be2b6834")
+	)
+	(wire
+		(pts
+			(xy 60.96 53.1622) (xy 58.42 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb849ff-7b86-4ac8-a722-6058a5f2a54e")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.4222) (xy 91.44 101.4222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f0ace5-0d6e-4659-a958-7728b45b7c1d")
+	)
+	(wire
+		(pts
+			(xy 60.96 159.8422) (xy 35.56 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4190fc6f-fa21-4b82-bb8a-6d1d1a0d63c1")
+	)
+	(wire
+		(pts
+			(xy 302.26 134.4422) (xy 304.8 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4212783f-4538-43db-944c-f8358f810356")
+	)
+	(wire
+		(pts
+			(xy 50.8 172.5422) (xy 45.72 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425301cf-bd6d-4ed9-bb7b-404c7ec73744")
+	)
+	(wire
+		(pts
+			(xy 213.36 126.8222) (xy 213.36 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42978940-0df3-4336-a045-155673b67083")
+	)
+	(wire
+		(pts
+			(xy 213.36 119.2022) (xy 213.36 116.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b6b592-7e8d-4a51-86c8-a05b19f6af8f")
+	)
+	(wire
+		(pts
+			(xy 332.74 134.4422) (xy 342.9 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e4e04b-5af6-4dfe-bbb4-1c58d75c7b67")
+	)
+	(wire
+		(pts
+			(xy 45.72 172.5422) (xy 45.72 175.0822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4726e441-9b52-411e-a535-6acbfa670a4d")
+	)
+	(wire
+		(pts
+			(xy 111.76 144.6022) (xy 91.44 144.6022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48349d08-afba-4bdc-8cd4-21b067dce0d2")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.4422) (xy 190.5 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4854685c-dca4-490f-ab60-e689ec61564e")
+	)
+	(wire
+		(pts
+			(xy 35.56 60.7822) (xy 60.96 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f66ad1-e705-4d10-898d-ec55244dbd3c")
+	)
+	(bus
+		(pts
+			(xy 175.26 50.6222) (xy 226.06 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4aee798a-a94d-4663-a8c6-2f8d2b820d01")
+	)
+	(wire
+		(pts
+			(xy 203.2 131.9022) (xy 203.2 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1b5490-d016-4356-9607-418d7e8da134")
+	)
+	(wire
+		(pts
+			(xy 302.26 185.2422) (xy 304.8 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4da90a-cd11-4c3a-b314-2805fc254702")
+	)
+	(wire
+		(pts
+			(xy 45.72 172.5422) (xy 45.72 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb06f50-c193-4fb3-9142-60a031d5b779")
+	)
+	(wire
+		(pts
+			(xy 43.18 223.3422) (xy 22.86 223.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519adc46-8e97-4333-9cdb-d3faee4b7d36")
+	)
+	(wire
+		(pts
+			(xy 254 182.7022) (xy 254 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541d2e95-5b6a-4d50-b404-8089f15a5272")
+	)
+	(wire
+		(pts
+			(xy 365.76 126.8222) (xy 365.76 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a95bdf-5fdb-416f-9244-caed2580f7bc")
+	)
+	(wire
+		(pts
+			(xy 353.06 185.2422) (xy 355.6 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f8e5c6-3d49-425f-baa2-ac0feee74088")
+	)
+	(bus
+		(pts
+			(xy 114.3 149.6822) (xy 114.3 147.1422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5662eeae-ec25-43f8-bbc9-5f484f77b33e")
+	)
+	(bus
+		(pts
+			(xy 114.3 106.5022) (xy 114.3 103.9622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "56932e90-17dc-438c-96c6-84abed6e12d5")
+	)
+	(bus
+		(pts
+			(xy 210.82 157.3022) (xy 172.72 157.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "57646aa1-61a0-4f69-a05b-9b0dbc97f8bd")
+	)
+	(bus
+		(pts
+			(xy 114.3 60.7822) (xy 114.3 58.2422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "58c48aa6-5f0d-4d7f-92b8-5c44cb3b0f9d")
+	)
+	(wire
+		(pts
+			(xy 314.96 68.4022) (xy 304.8 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593b8549-eb25-4693-b91c-8c90761a8b98")
+	)
+	(bus
+		(pts
+			(xy 170.18 210.6422) (xy 170.18 225.8822)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5a5ee76f-2da0-424e-a623-bb54af68835d")
+	)
+	(bus
+		(pts
+			(xy 114.3 63.3222) (xy 114.3 60.7822)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5b42564a-8388-4ce2-b9dd-ae4f27a92dbc")
+	)
+	(wire
+		(pts
+			(xy 43.18 241.1222) (xy 22.86 241.1222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba37179-5b8f-4cf2-8664-7ebc12040ba6")
+	)
+	(wire
+		(pts
+			(xy 365.76 170.0022) (xy 365.76 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c75f0b3-c1b3-448c-8142-9840b209d41c")
+	)
+	(wire
+		(pts
+			(xy 264.16 119.2022) (xy 264.16 116.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2bb15e-749d-4cde-8b85-61e4e866cb68")
+	)
+	(wire
+		(pts
+			(xy 50.8 180.1622) (xy 50.8 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d554312-2266-4d68-b14d-66d11a5f20bb")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.7022) (xy 91.44 55.7022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da82b42-bf62-42e0-8540-d1bd588a4cc4")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.0222) (xy 91.44 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebc397b-c670-472c-b392-a1badfe635a5")
+	)
+	(polyline
+		(pts
+			(xy 71.12 32.8422) (xy 71.12 20.1422)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5f9d6388-c22f-41c0-9322-8cc605d6f034")
+	)
+	(bus
+		(pts
+			(xy 172.72 208.1022) (xy 170.18 210.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "606c5a61-f197-4e0a-8d68-9bb39f18907f")
+	)
+	(wire
+		(pts
+			(xy 203.2 68.4022) (xy 203.2 70.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632ab022-cd8d-4dda-a221-bf27b8bc6705")
+	)
+	(bus
+		(pts
+			(xy 114.3 159.8422) (xy 114.3 157.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "640470cb-0365-49e7-9acd-ffbc89408419")
+	)
+	(wire
+		(pts
+			(xy 22.86 220.8022) (xy 43.18 220.8022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f18698-122c-4160-b06e-c2c1e412c2e9")
+	)
+	(wire
+		(pts
+			(xy 254 68.4022) (xy 254 70.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6503f08b-807f-48e0-9610-365c672e5be9")
+	)
+	(bus
+		(pts
+			(xy 312.42 157.3022) (xy 261.62 157.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "662dae66-5769-4389-8543-1ccad27432ae")
+	)
+	(bus
+		(pts
+			(xy 312.42 106.5022) (xy 261.62 106.5022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "66d2e7e7-a615-479f-a8ed-511bdaba7ab9")
+	)
+	(wire
+		(pts
+			(xy 213.36 68.4022) (xy 203.2 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fbe0da-b615-4936-a2aa-2ec4a15f0e29")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.7622) (xy 91.44 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6709e00d-9a5f-4889-a123-4b01e32d2b32")
+	)
+	(wire
+		(pts
+			(xy 58.42 144.6022) (xy 58.42 142.0622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6758ec60-8f05-4d95-96c5-8323ec7fea20")
+	)
+	(bus
+		(pts
+			(xy 114.3 157.3022) (xy 114.3 154.7622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "68ce6ea8-f7f9-4202-a71b-248c3f1440b7")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.6422) (xy 180.34 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69752cc3-61c2-4d62-8f38-0f183e30e385")
+	)
+	(bus
+		(pts
+			(xy 114.3 116.6622) (xy 116.84 114.1222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6a682c16-c34d-439e-9b32-502e30441946")
+	)
+	(polyline
+		(pts
+			(xy 162.56 20.1422) (xy 162.56 291.9222)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "6b394c58-d54e-42c7-baf9-349468ee4242")
+	)
+	(wire
+		(pts
+			(xy 332.74 83.6422) (xy 342.9 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7fb620-b802-4dd7-ac66-ca201eb9781b")
+	)
+	(wire
+		(pts
+			(xy 53.34 106.5022) (xy 60.96 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6c0bed-8e81-418b-906c-1be8a4f9da83")
+	)
+	(polyline
+		(pts
+			(xy 5.08 32.8422) (xy 71.12 32.8422)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6ea8a576-480e-4018-b7e6-de90544abebd")
+	)
+	(wire
+		(pts
+			(xy 365.76 142.0622) (xy 365.76 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edba87a-cabf-418a-a4c8-ae532c12785a")
+	)
+	(wire
+		(pts
+			(xy 355.6 170.0022) (xy 355.6 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0a6db5-5433-4c30-93d0-f68da724fce7")
+	)
+	(wire
+		(pts
+			(xy 111.76 70.9422) (xy 91.44 70.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f985baa-a4a8-422a-bcab-b041dd608b7d")
+	)
+	(wire
+		(pts
+			(xy 264.16 192.8622) (xy 264.16 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb0cf5a-db94-4bc3-a479-c42c9d1b9c60")
+	)
+	(wire
+		(pts
+			(xy 203.2 182.7022) (xy 203.2 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70257d20-8b2d-421f-ac29-5e01ba80a14a")
+	)
+	(bus
+		(pts
+			(xy 261.62 106.5022) (xy 210.82 106.5022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "70fff550-c62e-41fd-8712-3def4b2ef416")
+	)
+	(wire
+		(pts
+			(xy 111.76 98.8822) (xy 91.44 98.8822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ef5666-edbd-4721-91f8-72660dc6986a")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.2022) (xy 91.44 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73981bff-42ef-4d5d-b09f-3b478032925e")
+	)
+	(bus
+		(pts
+			(xy 114.3 101.4222) (xy 114.3 98.8822)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "75a8fe62-8228-47b2-b74c-1ac0cbf79e87")
+	)
+	(wire
+		(pts
+			(xy 213.36 119.2022) (xy 203.2 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a259b5-85c3-4d18-bc22-81da958c08a0")
+	)
+	(wire
+		(pts
+			(xy 292.1 134.4422) (xy 281.94 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f83d50-ae10-424b-b76e-de8c484d188a")
+	)
+	(wire
+		(pts
+			(xy 264.16 91.2622) (xy 264.16 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777beaaf-49f8-4158-8f85-54399325a2e9")
+	)
+	(bus
+		(pts
+			(xy 210.82 208.1022) (xy 172.72 208.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7798880a-0b2b-4375-996d-56f337890c8d")
+	)
+	(wire
+		(pts
+			(xy 365.76 68.4022) (xy 365.76 65.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7baeac-c787-473d-ba66-4fc6ff17385b")
+	)
+	(bus
+		(pts
+			(xy 114.3 68.4022) (xy 114.3 65.8622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7ae114a6-beed-4e75-b594-6dbd6d54782f")
+	)
+	(bus
+		(pts
+			(xy 114.3 98.8822) (xy 114.3 96.3422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7aecbf8c-40fa-4bb4-8a8b-a37b518b6974")
+	)
+	(wire
+		(pts
+			(xy 17.78 65.8622) (xy 17.78 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de6d38e-56b9-4637-99d2-6187c341d7f2")
+	)
+	(wire
+		(pts
+			(xy 53.34 76.0222) (xy 53.34 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2e83ba-f88f-4a50-9290-92cc12de016f")
+	)
+	(wire
+		(pts
+			(xy 45.72 187.7822) (xy 45.72 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f12aba3-7817-4913-b3c2-691656d8db80")
+	)
+	(wire
+		(pts
+			(xy 355.6 81.1022) (xy 355.6 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fec73ca-6fd4-43bb-9299-f23bbdd036a6")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.5822) (xy 58.42 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815d1e33-5621-4ead-bba0-904c40610b0b")
+	)
+	(bus
+		(pts
+			(xy 363.22 208.1022) (xy 312.42 208.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "81758f30-3744-4e62-b5a7-ff53083910fb")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.2622) (xy 213.36 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e37fa6-0dc2-4866-9b9b-548f86363157")
+	)
+	(wire
+		(pts
+			(xy 231.14 185.2422) (xy 241.3 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c32abe-9ed3-402f-b518-583da310f79f")
+	)
+	(wire
+		(pts
+			(xy 302.26 83.6422) (xy 304.8 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842566a0-f73e-4955-a00f-4c66a5dbb978")
+	)
+	(wire
+		(pts
+			(xy 251.46 185.2422) (xy 254 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86362d47-5d9d-4a51-bae1-0f2bbb35759d")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.4022) (xy 91.44 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c03ba3-b967-4145-8c41-6aa22a91fa54")
+	)
+	(bus
+		(pts
+			(xy 261.62 208.1022) (xy 210.82 208.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "87451e7a-8a7e-43b3-af33-d9cccbe6c99c")
+	)
+	(wire
+		(pts
+			(xy 353.06 83.6422) (xy 355.6 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8796d2ad-6a05-47b2-a87d-5a07c7deea39")
+	)
+	(wire
+		(pts
+			(xy 355.6 134.4422) (xy 358.14 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a11f8f-68e9-46db-90ee-f5e3f283675d")
+	)
+	(wire
+		(pts
+			(xy 264.16 177.6222) (xy 264.16 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b15a333-009d-46fb-b405-37532c0d1bb1")
+	)
+	(wire
+		(pts
+			(xy 254 81.1022) (xy 254 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7021b7-aa5c-4e21-bd6e-f17afd0ac210")
+	)
+	(bus
+		(pts
+			(xy 279.4 53.1622) (xy 276.86 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8f1533fd-5fb9-4a7a-978d-b78c8541582f")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.4222) (xy 35.56 101.4222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe56a12-e372-4b17-8e08-c070617b3d3b")
+	)
+	(bus
+		(pts
+			(xy 279.4 182.7022) (xy 279.4 131.9022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "91add82e-3c5e-4e35-804f-5ee9f2091e46")
+	)
+	(wire
+		(pts
+			(xy 60.96 76.0222) (xy 53.34 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ba6fe3-3319-4aa8-a52a-90abe4b9259a")
+	)
+	(wire
+		(pts
+			(xy 251.46 83.6422) (xy 254 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929569bd-4505-4fed-b34e-5d9dfcd5728c")
+	)
+	(wire
+		(pts
+			(xy 213.36 142.0622) (xy 213.36 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9403918f-0b65-45a1-808e-00a16b0e2a5d")
+	)
+	(wire
+		(pts
+			(xy 254 119.2022) (xy 254 121.7422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9517377c-32f8-42e9-a1ec-dff536abb16a")
+	)
+	(wire
+		(pts
+			(xy 111.76 65.8622) (xy 91.44 65.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d61c9d-a7ae-4152-96c2-5d46bd26f770")
+	)
+	(wire
+		(pts
+			(xy 264.16 68.4022) (xy 254 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e2cebc-a35f-415e-b3cb-e58c45d77f1e")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.3422) (xy 58.42 93.8022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985738eb-9745-4056-bac6-7d8fb3feebb4")
+	)
+	(wire
+		(pts
+			(xy 213.36 170.0022) (xy 213.36 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a408fc-0b7b-4221-9710-13a7987e1ac2")
+	)
+	(wire
+		(pts
+			(xy 43.18 243.6622) (xy 22.86 243.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99200e3d-1c1e-4872-89e6-84f6540c744b")
+	)
+	(bus
+		(pts
+			(xy 177.8 182.7022) (xy 177.8 131.9022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9bd8fe09-aaae-40f1-a687-46b2cd1653b0")
+	)
+	(bus
+		(pts
+			(xy 279.4 131.9022) (xy 279.4 81.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9d4b5941-7efb-4b31-a5ad-ef56a964db07")
+	)
+	(wire
+		(pts
+			(xy 43.18 225.8822) (xy 22.86 225.8822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efd0276-f26b-4649-aae9-77d3a9aaf561")
+	)
+	(wire
+		(pts
+			(xy 365.76 91.2622) (xy 365.76 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a057c71b-3bd9-41ad-8c2f-8c6e44fdec8c")
+	)
+	(bus
+		(pts
+			(xy 116.84 50.6222) (xy 175.26 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a0ac8092-8764-4335-b38c-7ac3485ca53c")
+	)
+	(wire
+		(pts
+			(xy 292.1 83.6422) (xy 281.94 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1645d43-91fe-4c8a-bfb6-1175fd020f4e")
+	)
+	(wire
+		(pts
+			(xy 251.46 134.4422) (xy 254 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20f4c04-f260-4db8-ac35-fb96add2f921")
+	)
+	(wire
+		(pts
+			(xy 264.16 76.0222) (xy 264.16 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2125551-249f-476e-a98d-ba2c8798c586")
+	)
+	(bus
+		(pts
+			(xy 327.66 50.6222) (xy 330.2 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a29ecefc-516e-4392-bfff-572ee138d3e0")
+	)
+	(wire
+		(pts
+			(xy 264.16 170.0022) (xy 254 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33da208-b9a5-4765-bec4-c44c505c84a7")
+	)
+	(bus
+		(pts
+			(xy 114.3 103.9622) (xy 114.3 101.4222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a4226ade-8b3d-487a-9fde-f074da46c462")
+	)
+	(wire
+		(pts
+			(xy 93.98 78.5622) (xy 93.98 76.0222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c01249-5a72-4e4c-acb1-3ccd4bcc3bfd")
+	)
+	(wire
+		(pts
+			(xy 314.96 91.2622) (xy 314.96 103.9622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6713afd-7208-49ca-b8bf-905a69aaf398")
+	)
+	(wire
+		(pts
+			(xy 86.36 180.1622) (xy 86.36 182.7022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67a68f8-c4c3-4eef-bee5-a3ec03d47d87")
+	)
+	(bus
+		(pts
+			(xy 228.6 53.1622) (xy 226.06 50.6222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a7019534-3fa2-4fc3-b86c-f7a7f0a41d07")
+	)
+	(wire
+		(pts
+			(xy 213.36 76.0222) (xy 213.36 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a953966c-ff81-4f89-bb6e-35f3cdd16dd0")
+	)
+	(bus
+		(pts
+			(xy 114.3 154.7622) (xy 114.3 152.2222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "aa2332e3-92f6-4e17-b940-058e47372a06")
+	)
+	(wire
+		(pts
+			(xy 254 83.6422) (xy 256.54 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad047c1c-37ed-440d-93a3-d593fc747dc2")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.5822) (xy 58.42 111.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef257f5-4c9d-49db-866b-952b227a5794")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.5022) (xy 91.44 106.5022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c7187f-ec2b-43c8-92a5-6fcf208443d5")
+	)
+	(wire
+		(pts
+			(xy 314.96 119.2022) (xy 314.96 116.6622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b121fe74-3eaa-4692-bfb9-bcabf930962c")
+	)
+	(wire
+		(pts
+			(xy 304.8 134.4422) (xy 307.34 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15f4b98-9099-4273-996a-b9ccdd04f2e4")
+	)
+	(wire
+		(pts
+			(xy 60.96 149.6822) (xy 35.56 149.6822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b210fb6d-ed2b-49f8-8292-aa7d89d63fe4")
+	)
+	(wire
+		(pts
+			(xy 355.6 83.6422) (xy 358.14 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bc84a2-6170-41f5-93f6-3745504738e9")
+	)
+	(wire
+		(pts
+			(xy 304.8 119.2022) (xy 304.8 121.7422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31b703f-cfbb-432f-9688-849df6f424ec")
+	)
+	(wire
+		(pts
+			(xy 314.96 126.8222) (xy 314.96 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a83c3c-a54f-477f-94af-17ea18e1115d")
+	)
+	(bus
+		(pts
+			(xy 170.18 225.8822) (xy 172.72 228.4222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b4b8968b-3279-4c65-b826-eed844fea389")
+	)
+	(bus
+		(pts
+			(xy 312.42 208.1022) (xy 261.62 208.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b59bcad8-bb0a-4da2-bef5-b38d9fd354aa")
+	)
+	(bus
+		(pts
+			(xy 116.84 114.1222) (xy 119.38 114.1222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b5d82e0e-7d4f-434a-8256-af539ff14e7d")
+	)
+	(wire
+		(pts
+			(xy 200.66 83.6422) (xy 203.2 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f227f4-713d-4be1-98f2-bec04b390c79")
+	)
+	(wire
+		(pts
+			(xy 111.76 159.8422) (xy 91.44 159.8422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc04c6ca-04c7-4e82-a59d-5921c69f3a29")
+	)
+	(wire
+		(pts
+			(xy 60.96 167.4622) (xy 58.42 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf5ec30-365c-4865-9890-bdab4c111f78")
+	)
+	(wire
+		(pts
+			(xy 111.76 157.3022) (xy 91.44 157.3022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3b4b5d-cd99-4005-9083-f1d734926aae")
+	)
+	(wire
+		(pts
+			(xy 264.16 119.2022) (xy 254 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4b8ee0-ebba-4ef0-80aa-f00fa1ae0799")
+	)
+	(bus
+		(pts
+			(xy 172.72 106.5022) (xy 170.18 109.0422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "bedef41a-203f-4787-a04e-db7c798d161e")
+	)
+	(wire
+		(pts
+			(xy 203.2 185.2422) (xy 205.74 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe28f5c-14a7-46ac-87fe-d648bb093fe6")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.7822) (xy 91.44 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19dbdb3-cdc9-43ff-8138-8178f608efb2")
+	)
+	(wire
+		(pts
+			(xy 304.8 83.6422) (xy 307.34 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c211599a-a650-4eb1-8c12-3fbe986e5f55")
+	)
+	(wire
+		(pts
+			(xy 314.96 170.0022) (xy 304.8 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38280fa-43fa-42a2-8b2d-0e6309da0cb8")
+	)
+	(wire
+		(pts
+			(xy 314.96 192.8622) (xy 314.96 205.5622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e92b3f-7d87-4bb3-b7dd-6da6aa0a4758")
+	)
+	(wire
+		(pts
+			(xy 314.96 170.0022) (xy 314.96 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50c36cc-79ed-4527-861a-f41da63cf804")
+	)
+	(wire
+		(pts
+			(xy 93.98 170.0022) (xy 93.98 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c552c9ad-017a-40b0-817a-5a03e6a7dc4d")
+	)
+	(wire
+		(pts
+			(xy 86.36 195.4022) (xy 86.36 192.8622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fc2b06-f00d-4b62-b86f-65e46014375b")
+	)
+	(wire
+		(pts
+			(xy 43.18 246.2022) (xy 22.86 246.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c647ae73-d961-4520-96f1-d30a73e2912f")
+	)
+	(wire
+		(pts
+			(xy 43.18 238.5822) (xy 22.86 238.5822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a37e0d-16c5-46ad-8941-bbb42b26cd2d")
+	)
+	(bus
+		(pts
+			(xy 170.18 159.8422) (xy 170.18 210.6422)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c6d30bf0-769a-454c-a198-4286fc0ab052")
+	)
+	(bus
+		(pts
+			(xy 177.8 81.1022) (xy 177.8 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c77e094d-7c4e-4306-a7bc-9f45aa6b6999")
+	)
+	(wire
+		(pts
+			(xy 35.56 58.2422) (xy 60.96 58.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c794f66d-ddb3-4bf2-998b-007fc8625e5b")
+	)
+	(wire
+		(pts
+			(xy 111.76 58.2422) (xy 91.44 58.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f477df-d199-4bf3-8b1b-270a073a3cb5")
+	)
+	(wire
+		(pts
+			(xy 355.6 68.4022) (xy 355.6 70.9422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8162b8c-3566-4d82-968b-c73f436c400b")
+	)
+	(wire
+		(pts
+			(xy 35.56 63.3222) (xy 60.96 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9b031c-4997-476a-aa4a-b5092819d02c")
+	)
+	(wire
+		(pts
+			(xy 365.76 177.6222) (xy 365.76 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb23d5d5-60db-4731-bfeb-7d82887333d7")
+	)
+	(wire
+		(pts
+			(xy 203.2 134.4422) (xy 205.74 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9a6857-e59e-4dcd-98e8-dc761cba8500")
+	)
+	(wire
+		(pts
+			(xy 304.8 182.7022) (xy 304.8 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbb8866-9722-47e5-9521-9ae0081cd293")
+	)
+	(wire
+		(pts
+			(xy 60.96 154.7622) (xy 35.56 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd24f43-b400-43c7-8058-8ec70d4fd98d")
+	)
+	(bus
+		(pts
+			(xy 210.82 106.5022) (xy 172.72 106.5022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cde1100d-1e6c-4f30-8433-04bcd209db55")
+	)
+	(wire
+		(pts
+			(xy 93.98 121.7422) (xy 93.98 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce027f0e-d869-4d63-a227-a75d20dc15f2")
+	)
+	(bus
+		(pts
+			(xy 261.62 157.3022) (xy 210.82 157.3022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ce8150ca-981d-46a3-b5b8-68462bcee506")
+	)
+	(bus
+		(pts
+			(xy 228.6 81.1022) (xy 228.6 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cf894f02-98d0-467b-a114-ad4388188278")
+	)
+	(wire
+		(pts
+			(xy 254 185.2422) (xy 256.54 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d053b22c-492c-4515-9bdd-a032c06ed0d1")
+	)
+	(bus
+		(pts
+			(xy 228.6 182.7022) (xy 228.6 131.9022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d16eeb3f-6c25-481f-b627-c96e33cb1ff4")
+	)
+	(wire
+		(pts
+			(xy 180.34 185.2422) (xy 190.5 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18caa1d-5f34-455a-b7ba-f7843678dc09")
+	)
+	(wire
+		(pts
+			(xy 111.76 162.3822) (xy 91.44 162.3822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b2b915-2988-4454-bf3d-ec8f6c544fca")
+	)
+	(bus
+		(pts
+			(xy 114.3 96.3422) (xy 114.3 68.4022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d5b657b6-cb2d-4c26-bc35-2c776127db35")
+	)
+	(wire
+		(pts
+			(xy 213.36 170.0022) (xy 203.2 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77d07dc-a236-427f-baeb-70d8063e767a")
+	)
+	(wire
+		(pts
+			(xy 365.76 170.0022) (xy 355.6 170.0022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88d0afa-3e3f-45c2-9cf5-30f7b384b189")
+	)
+	(bus
+		(pts
+			(xy 228.6 131.9022) (xy 228.6 81.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d8f94eda-ba30-4c78-a362-690e1eb203da")
+	)
+	(bus
+		(pts
+			(xy 330.2 81.1022) (xy 330.2 131.9022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d97d1ff0-31d6-472b-990a-3aca3c5fa2eb")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.2022) (xy 203.2 121.7422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db040798-195a-41a6-91a6-0fcf44946fa9")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.1622) (xy 58.42 50.6222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2b310e-3b38-4135-a078-4156db2a81ac")
+	)
+	(bus
+		(pts
+			(xy 330.2 53.1622) (xy 330.2 81.1022)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "dd58316d-8812-465b-8b53-5e5f3009947b")
+	)
+	(wire
+		(pts
+			(xy 264.16 126.8222) (xy 264.16 119.2022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc04beb-19bf-4208-8a27-84a7987e1e63")
+	)
+	(wire
+		(pts
+			(xy 93.98 167.4622) (xy 91.44 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde59a84-0236-4999-bb16-ef7aa270c6dd")
+	)
+	(bus
+		(pts
+			(xy 114.3 55.7022) (xy 114.3 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ddf183df-bc28-4e42-8932-5fbc9e8dddfe")
+	)
+	(wire
+		(pts
+			(xy 264.16 142.0622) (xy 264.16 154.7622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb4e9cd-5f00-49ae-9b6a-95aeaf90cf06")
+	)
+	(wire
+		(pts
+			(xy 231.14 134.4422) (xy 241.3 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b46a13-d1a8-4046-96c0-da93bb9407b9")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.1022) (xy 203.2 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3488229-11e8-4d02-a0ee-5d669070e7b6")
+	)
+	(wire
+		(pts
+			(xy 203.2 170.0022) (xy 203.2 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53fb64f-1014-4365-99be-d218cdd82798")
+	)
+	(bus
+		(pts
+			(xy 279.4 81.1022) (xy 279.4 53.1622)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e7472499-8ca4-415a-9d94-d5e0fce7ea56")
+	)
+	(wire
+		(pts
+			(xy 241.3 83.6422) (xy 231.14 83.6422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e996aa7d-0f3d-480b-a05b-4c87056bcaac")
+	)
+	(wire
+		(pts
+			(xy 200.66 185.2422) (xy 203.2 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacae637-4584-4c32-bad0-0ed95c5e19ab")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.0422) (xy 91.44 109.0422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed477ad8-314d-44e8-a409-ff6c9d4c7f76")
+	)
+	(wire
+		(pts
+			(xy 304.8 185.2422) (xy 307.34 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee89ece1-5587-4444-93c9-4c12fc62164d")
+	)
+	(wire
+		(pts
+			(xy 355.6 182.7022) (xy 355.6 185.2422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f030912e-d89e-4679-bc7f-e02ebd92f2ce")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.3422) (xy 58.42 96.3422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09f4fe9-aa12-4c87-b224-e4e663a67197")
+	)
+	(bus
+		(pts
+			(xy 172.72 228.4222) (xy 177.8 228.4222)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f1b49ef7-bccd-49de-a5b8-ac9730504261")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.4022) (xy 58.42 68.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7451a55-4e7e-4541-be65-4cf58b29845d")
+	)
+	(wire
+		(pts
+			(xy 200.66 134.4422) (xy 203.2 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f947e84b-8f1b-4950-ab11-284aa33c3160")
+	)
+	(wire
+		(pts
+			(xy 254 170.0022) (xy 254 172.5422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facdf43e-b796-446e-8105-67ab9b8fecbf")
+	)
+	(wire
+		(pts
+			(xy 264.16 170.0022) (xy 264.16 167.4622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0c3c35-494b-47bd-8141-e4ed0c50c919")
+	)
+	(wire
+		(pts
+			(xy 17.78 50.6222) (xy 17.78 53.1622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff825a9d-74ad-4e7c-9c28-9d1ad9dcd95f")
+	)
+	(polyline
+		(pts
+			(xy 76.2 225.8822) (xy 66.04 225.8822)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1b026581-8054-43ad-a8b7-ae7e3e111b8d)
+	)
+	(polyline
+		(pts
+			(xy 76.2 243.6622) (xy 66.04 243.6622)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b4f2d7b0-6ee7-4204-87e6-d48c5b691787)
+	)
+	(text_box "COL_SR"
+		(exclude_from_sim no)
+		(at 76.2 224.6122 0)
+		(size 15.24 2.54)
+		(stroke
+			(width 0.0002)
+			(type default)
+			(color 143 158 201 1)
+		)
+		(fill
+			(type color)
+			(color 237 242 251 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "0f9f82b2-2049-4c7d-8223-cc38a8690573")
+	)
+	(text_box "ROW_SR"
+		(exclude_from_sim no)
+		(at 76.2 242.3922 0)
+		(size 15.24 2.54)
+		(stroke
+			(width 0.0002)
+			(type default)
+			(color 143 158 201 1)
+		)
+		(fill
+			(type color)
+			(color 237 242 251 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "ff90854a-064e-4067-b8b4-869edb79ddca")
+	)
+	(text "LED Matrix Driver"
+		(exclude_from_sim no)
+		(at 10.16 30.3022 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "13fd88c7-84bc-4eb6-9097-07b63aae3d51")
+	)
+	(text "Column Drivers"
+		(exclude_from_sim no)
+		(at 175.26 27.7622 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c32d12d-09a9-41db-abd8-ccf09ea32d7c")
+	)
+	(text "Column Drivers"
+		(exclude_from_sim no)
+		(at 436.88 -78.9178 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e4263cb-c408-4546-ac55-137e6e4a7de6")
+	)
+	(text "Shift Registers"
+		(exclude_from_sim no)
+		(at 7.62 40.4622 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "e55f42e2-ed37-4b2a-8627-84891cc2db62")
+	)
+	(label "COL_OE"
+		(at 35.56 70.9422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02c0a73f-fbbb-4c8f-9051-3246f11ea8fd")
+	)
+	(label "COL_4"
+		(at 264.16 152.2222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04607219-3dd2-46d3-859b-938cce08321d")
+	)
+	(label "ROW_DS"
+		(at 35.56 149.6822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "128f1bb4-9c7e-4052-9f57-c589957f8f50")
+	)
+	(label "COL_SIG0"
+		(at 180.34 83.6422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12939f15-0354-42c1-9034-7e2807131e87")
+	)
+	(label "ROW6"
+		(at 111.76 159.8422 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "134158f1-a47f-45c0-a255-d8c3d4f296f6")
+	)
+	(label "COL_SIG4"
+		(at 231.14 134.4422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19769caa-ed45-43c0-bc65-f7798578914d")
+	)
+	(label "ROW2"
+		(at 111.76 149.6822 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19bf12eb-f43e-4316-81c0-c8108e1e1de0")
+	)
+	(label "COL_OE"
+		(at 35.56 114.1222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19e73a0f-40f6-44a2-9872-4959d8ead531")
+	)
+	(label "ROW0"
+		(at 111.76 144.6022 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19fb5ef8-e05b-4403-a487-3c2a29187173")
+	)
+	(label "COL_SIG1"
+		(at 180.34 134.4422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b30e06d-907a-4b69-ad5c-e9edc0bc4ad5")
+	)
+	(label "COL_SH_CP"
+		(at 22.86 220.8022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b7bc0fe-413d-4bbf-984f-ab5b632d4faf")
+	)
+	(label "COL_SIG11"
+		(at 111.76 109.0422 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "244aecba-83ad-41cb-837e-c00ec72c304a")
+	)
+	(label "COL_SIG6"
+		(at 281.94 83.6422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "277dd484-e547-4f35-a49d-b7e77089afc9")
+	)
+	(label "COL_SIG9"
+		(at 332.74 83.6422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f58110b-ca6a-4251-b41d-d70c9230f9e3")
+	)
+	(label "ROW_ST_CP"
+		(at 22.86 241.1222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "344e2a8c-87b9-412b-b201-1c63f3419f5c")
+	)
+	(label "COL_10"
+		(at 365.76 152.2222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "354a71ae-1d53-4c42-886e-e6406d8aff0f")
+	)
+	(label "COL_SIG1"
+		(at 111.76 58.2422 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37503226-1d49-43bd-8aba-e35faf050235")
+	)
+	(label "COL_6"
+		(at 314.96 101.4222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "385c87bb-adf0-4084-a2bc-cc6b7cc1593d")
+	)
+	(label "ROW1"
+		(at 111.76 147.1422 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d7ce1b6-dfaa-4826-a6de-456dc72dad7d")
+	)
+	(label "COL_SIG3"
+		(at 111.76 63.3222 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44222071-a417-406e-b02c-aaed8ff5fb05")
+	)
+	(label "ROW3"
+		(at 111.76 152.2222 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fb92da9-6a32-4338-b51a-de5bdc53a11f")
+	)
+	(label "COL_SIG10"
+		(at 111.76 106.5022 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56cb6627-d761-4119-9f2b-adbd3d368d49")
+	)
+	(label "COL_SIG5"
+		(at 231.14 185.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57b4fa16-f767-4f48-88d5-cfb4eea213aa")
+	)
+	(label "ROW5"
+		(at 111.76 157.3022 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65309eb9-9b6d-4c5e-8659-1b62a5abb127")
+	)
+	(label "COL_7"
+		(at 314.96 152.2222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "653b96cb-29a2-4b7c-8ba6-2274e332af3b")
+	)
+	(label "COL_SIG7"
+		(at 111.76 98.8822 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d5b4fb8-d64f-4b79-b522-3573f26b9d25")
+	)
+	(label "COL_SIG8"
+		(at 281.94 185.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ff6b1e7-68e9-42a8-9c3b-4f3282337728")
+	)
+	(label "ROW_DS"
+		(at 22.86 246.2022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "706e85ee-85f0-429e-9f7c-f86b3714e6ee")
+	)
+	(label "COL_2"
+		(at 213.36 203.0222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "748aefac-befc-4459-a142-f80c22e519bd")
+	)
+	(label "COL_ST_CP"
+		(at 35.56 60.7822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "776a07f6-0e1f-4e84-9a18-d854396e591a")
+	)
+	(label "ROW_SH_CP"
+		(at 35.56 152.2222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8689cd53-239d-403d-bc8e-dcd0f8d39777")
+	)
+	(label "COL_SH_CP"
+		(at 35.56 101.4222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fa2a28f-2b90-4ea6-ae08-c190dcddd9d1")
+	)
+	(label "COL_OE"
+		(at 22.86 225.8822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "918b3007-2409-48db-9c89-fdc9cb5255ae")
+	)
+	(label "COL_SIG0"
+		(at 111.76 55.7022 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95167472-58c2-453d-9b21-6444e1654eba")
+	)
+	(label "COL_SIG[0..11]"
+		(at 469.9 -56.0578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "959232de-4f25-46a2-8b5d-16a7fe239944")
+	)
+	(label "COL_ST_CP"
+		(at 22.86 223.3422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "988f6db0-92a2-44b3-9779-a04f1af9b209")
+	)
+	(label "COL_SIG[0..11]"
+		(at 137.16 50.6222 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aafb961-1fce-4b0e-95d6-f7f2a446f88f")
+	)
+	(label "ROW_ST_CP"
+		(at 35.56 154.7622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d571838-4b15-4961-a3d3-0f73d834748f")
+	)
+	(label "COL_1"
+		(at 213.36 152.2222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d675453-3889-458b-9b12-d9c4828dee50")
+	)
+	(label "ROW7"
+		(at 111.76 162.3822 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ea565c9-aec4-41b9-9df4-b7ec4513bc02")
+	)
+	(label "COL_SIG7"
+		(at 281.94 134.4422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b718bb-50d1-4672-a60d-53d8992d6b33")
+	)
+	(label "ROW_SH_CP"
+		(at 22.86 238.5822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a36d865b-9c84-4be5-92d9-002224f6245b")
+	)
+	(label "COL_SIG9"
+		(at 111.76 103.9622 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4d092ec-19c2-405f-a6f8-397c720bb768")
+	)
+	(label "COL_SIG2"
+		(at 180.34 185.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6ff4091-bcae-410b-b681-dee8f2f3c757")
+	)
+	(label "COL_ST_CP"
+		(at 35.56 103.9622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad50e7b5-61a2-440e-ada9-d21e450c0f2e")
+	)
+	(label "ROW4"
+		(at 111.76 154.7622 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad6e4d74-7539-48cd-bdea-6d97ca235ee8")
+	)
+	(label "COL_5"
+		(at 264.16 203.0222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af38f796-40a7-40f2-ab79-59ae71c55a65")
+	)
+	(label "COL_SIG8"
+		(at 111.76 101.4222 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1b09eee-d4a9-47eb-b60d-2843d4ba6b95")
+	)
+	(label "COL_SIG11"
+		(at 332.74 185.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6c05f3a-1873-4abc-b8bb-160e85e7b614")
+	)
+	(label "ROW_OE"
+		(at 35.56 159.8422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b886fa6b-c455-436c-b066-fd29f5042f63")
+	)
+	(label "COL_SIG5"
+		(at 111.76 68.4022 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8d5af3a-fc69-4dbd-9e18-c812d5102e71")
+	)
+	(label "COL_SIG4"
+		(at 111.76 65.8622 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbd0165e-46d1-42d9-957c-b34c37eab905")
+	)
+	(label "COL_11"
+		(at 365.76 203.0222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc642ca3-801e-46b2-b3a8-3a4465313977")
+	)
+	(label "COL_SH_CP"
+		(at 35.56 58.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc82f209-8b4b-4fb2-b5db-84d05e8f2e2e")
+	)
+	(label "COL_0"
+		(at 213.36 101.4222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bccd9cf4-3bac-4068-b370-0ba26d8de616")
+	)
+	(label "COL_9"
+		(at 365.76 101.4222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd0cea78-e77a-4952-b9bc-0fc282eb0fb6")
+	)
+	(label "COL_3"
+		(at 264.16 101.4222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1de064a-e1f1-41cf-aabc-c2cdd13c5bda")
+	)
+	(label "COL_SIG6"
+		(at 111.76 70.9422 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4b84b2d-b6c7-41ff-9d0d-00c2ad047451")
+	)
+	(label "COL_8"
+		(at 314.96 203.0222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb477fe1-b7f9-4bb2-9ea1-527ed9a4c504")
+	)
+	(label "COL_SIG10"
+		(at 332.74 134.4422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d081588f-ab0d-40e3-b17d-8f637382397b")
+	)
+	(label "COL_SIG2"
+		(at 111.76 60.7822 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d13dbeba-b6eb-4c51-bd8d-607832dbd0bd")
+	)
+	(label "COL_DS"
+		(at 35.56 63.3222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcab2631-6337-41a7-ae85-4e4f3c45f13a")
+	)
+	(label "ROW_OE"
+		(at 22.86 243.6622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8d6fd62-d92e-4245-8a90-4d4d7da982a9")
+	)
+	(label "COL_SIG3"
+		(at 231.14 83.6422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ece473a2-b09b-4046-8b6f-fa8b89b9499b")
+	)
+	(label "COL_DS"
+		(at 22.86 228.4222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee2e15f8-5fd1-4d61-9472-4b730e7fe7f2")
+	)
+	(hierarchical_label "COL[0..11]"
+		(shape passive)
+		(at 177.8 228.4222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "375de723-d5a3-48c2-ab0a-2c5b693c7e36")
+	)
+	(hierarchical_label "ROW[0..7]"
+		(shape passive)
+		(at 119.38 114.1222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7524228e-3395-4c10-945f-defadf76274c")
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 314.96 116.6622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00a8902a-c6d1-455a-817d-f841a1ca0ad7")
+		(property "Reference" "#PWR?"
+			(at 314.96 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 314.96 112.8522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ff9116aa-7c29-4307-aee6-7bd0fd6307c6")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 365.76 177.6222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f5218c-a918-4eb3-b1e1-a4cd2569b572")
+		(property "Reference" "Q?"
+			(at 369.189 184.9882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 369.189 187.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 365.76 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 365.76 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 357.632 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 357.632 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "36739e05-e7df-4ccb-9edf-ae95110ce347")
+		)
+		(pin "2"
+			(uuid "e8b790cf-6e5c-4aa8-ba33-1244a3b6e6cf")
+		)
+		(pin "1"
+			(uuid "8e83219b-0ab0-46b9-8593-99273aa2a5cc")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 203.2 172.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04c05e28-2a57-486d-a194-bd6a7ff45fc6")
+		(property "Reference" "R?"
+			(at 204.089 177.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 204.089 179.9082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 203.2 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12f504e6-55fb-4f37-842c-eede06500700")
+		)
+		(pin "2"
+			(uuid "15d53cca-c021-4f9b-baf5-08dda148499c")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 213.36 65.8622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0faaf2dc-4022-4f86-a4b5-9b325148466f")
+		(property "Reference" "#PWR?"
+			(at 213.36 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 213.36 62.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "86f43e25-0aea-4751-a98d-f9261ec9b312")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 190.5 83.6422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11072778-b102-40de-9af8-cd73e6a4d121")
+		(property "Reference" "R?"
+			(at 192.786 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 192.786 87.0712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 190.5 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83d8b2b7-7cb3-47e1-87ec-e6ac3b1320d4")
+		)
+		(pin "1"
+			(uuid "ed307554-ecbb-440b-b09a-18037102ff7c")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 365.76 76.0222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14de2d41-b9a2-471f-842e-2e77de77a7d6")
+		(property "Reference" "Q?"
+			(at 369.189 83.3882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 369.189 85.9282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 365.76 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 365.76 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 357.632 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 357.632 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05d15d72-6d81-4f93-8c2e-b4f44d60153d")
+		)
+		(pin "3"
+			(uuid "2a60656e-e68a-4744-bb36-4eaa88092b24")
+		)
+		(pin "1"
+			(uuid "2b0f0dcb-1659-4f8b-ad91-5609b6a7bcd3")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 314.96 167.4622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15391b77-9809-437d-872e-f2b3cecca833")
+		(property "Reference" "#PWR?"
+			(at 314.96 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 314.96 163.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "feefc17e-3a9e-432f-97a7-26e1198bc952")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 304.8 121.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a3cd5aa-3a58-4b14-87fb-de397a50fc27")
+		(property "Reference" "R?"
+			(at 305.689 126.5682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 305.689 129.1082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 304.8 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc38617c-5b9b-40da-9144-1abf7b2f42c0")
+		)
+		(pin "2"
+			(uuid "039fe6b6-308d-4daa-af73-07dbd44c7c3f")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 292.1 83.6422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a794166-4224-4e29-8332-f756e6fac620")
+		(property "Reference" "R?"
+			(at 294.386 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 294.386 87.0712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 292.1 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "761aa27a-8ae6-4d3c-82c0-e59f06628a92")
+		)
+		(pin "1"
+			(uuid "361f2261-4ea0-451d-9457-044070167851")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 365.76 167.4622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a98a66e-1956-4d4b-99f1-50737ecb2064")
+		(property "Reference" "#PWR?"
+			(at 365.76 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 365.76 163.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3b0e51e4-2fc6-414d-ab29-ade14ed2923a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 86.36 180.1622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e90148a-da66-4b49-bd20-ec081e4a551a")
+		(property "Reference" "#PWR?"
+			(at 86.36 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 86.36 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 180.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6abb3c28-d60c-4872-a837-9a375645f32f")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 213.36 116.6622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20b609c1-3757-4218-8e4a-21fc8128b44c")
+		(property "Reference" "#PWR?"
+			(at 213.36 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 213.36 112.8522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0b901916-2597-46d1-92c8-08cf099d72c0")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 213.36 76.0222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "225e5de9-c25f-43e8-80de-758b99d0cf02")
+		(property "Reference" "Q?"
+			(at 216.789 83.3882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 216.789 85.9282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 213.36 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 213.36 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 205.232 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 205.232 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cb90515-4f07-44c4-b85a-dc539fa1c530")
+		)
+		(pin "3"
+			(uuid "088560dc-dbb5-4cd8-9493-3b3bebedaa01")
+		)
+		(pin "1"
+			(uuid "8ef54a0a-5e0f-418a-94cd-bc9a0ff0e98b")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_mirrored_STP08DP05TTR")
+		(at 91.44 144.6022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "236a336a-8cb0-42f8-8994-128a2e6954a2")
+		(property "Reference" "U?"
+			(at 66.04 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STP08DP05TTR"
+			(at 66.04 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TSSOP16"
+			(at 91.44 144.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 144.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver"
+			(at 91.44 144.6022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/STP08DP05TTR.pdf"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.2mm"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "STMicroelectronics"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "STP08DP05TTR"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "511-STP08DP05TTR"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STP08DP05TTR?qs=xgiOkRdDJ0m7T%2FaY25F5vQ%3D%3D"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "STP08DP05TTR"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/stp08dp05ttr/stmicroelectronics?region=nac"
+			(at 60.452 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "968588e6-9054-468a-8ab6-86b195157bcb")
+		)
+		(pin "2"
+			(uuid "c4652ac7-253c-4899-bce3-81ac2ee13e14")
+		)
+		(pin "13"
+			(uuid "cf84bef1-251d-4b33-83a9-62dd7ac24a5f")
+		)
+		(pin "3"
+			(uuid "05f2b023-04ec-4289-8c43-f226eb861f8b")
+		)
+		(pin "12"
+			(uuid "863a73ab-e78c-4b1e-bd12-b133d59b8267")
+		)
+		(pin "1"
+			(uuid "403ef0bb-4f18-48ed-a99a-fb7c13b49e17")
+		)
+		(pin "8"
+			(uuid "a5503b64-9a25-4c0f-a3b6-4742af1d328e")
+		)
+		(pin "7"
+			(uuid "ea809fd8-640f-44a4-a2ae-b319df4dbf43")
+		)
+		(pin "4"
+			(uuid "b936cbc7-3713-4b6c-8205-48aa16cb67f9")
+		)
+		(pin "5"
+			(uuid "427b9fff-3aaf-41d8-a4b6-42e583047154")
+		)
+		(pin "16"
+			(uuid "667cbe9c-56b9-4f53-9bd0-3e70a3c7f2f5")
+		)
+		(pin "6"
+			(uuid "cbca37be-c333-40dc-b73f-e60fb07600ae")
+		)
+		(pin "15"
+			(uuid "72896b03-21a4-469c-a39e-a031393c2c8b")
+		)
+		(pin "11"
+			(uuid "b89abde2-e32b-4e8d-841b-3c92772f57a6")
+		)
+		(pin "9"
+			(uuid "af706cb1-8fe4-4bce-993d-ff248c5e26be")
+		)
+		(pin "10"
+			(uuid "47db8d93-ee8a-4f80-9529-276318fa04d6")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_74HC595")
+		(at 60.96 96.3422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23ba21b4-5e96-408b-b17f-fca64af2b277")
+		(property "Reference" "U?"
+			(at 66.04 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 66.04 124.2822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TSSOP16"
+			(at 60.96 96.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 96.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shift Register"
+			(at 60.96 96.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "7f8e0f96-c8e9-4c60-9c7c-d99fac12d547")
+		)
+		(pin "10"
+			(uuid "56dd4e8f-d9ba-4648-ace4-f4cc6d36ca9e")
+		)
+		(pin "11"
+			(uuid "b01b83cf-f9d3-4dae-be4c-df2ce115297e")
+		)
+		(pin "12"
+			(uuid "0e720ea2-70a3-499e-85f3-cbeba1016777")
+		)
+		(pin "13"
+			(uuid "08d703ba-5e79-4f3d-aee4-fa55f106ccc8")
+		)
+		(pin "14"
+			(uuid "d93f2b20-2529-4029-a236-86328e351898")
+		)
+		(pin "16"
+			(uuid "aee2465b-10f8-4edf-b9b1-8a7099c51585")
+		)
+		(pin "1"
+			(uuid "0e6a2fd9-0ac6-4090-a01e-94c6cd1df6c0")
+		)
+		(pin "2"
+			(uuid "454b1a39-a4e8-4397-8279-8f1ef3c824bc")
+		)
+		(pin "9"
+			(uuid "4aa68dc4-b45c-451c-9cc8-6750bac59a38")
+		)
+		(pin "15"
+			(uuid "2faf9cd2-c45f-43e6-8da1-f2a3dc55cd6c")
+		)
+		(pin "7"
+			(uuid "425c1024-19f4-4910-af8d-94673e8e6dc7")
+		)
+		(pin "6"
+			(uuid "e8eb9b94-9608-4a5d-aec0-4ac60c5e3888")
+		)
+		(pin "5"
+			(uuid "e4a658bb-d5e5-415f-a0a3-f4a78d8209b6")
+		)
+		(pin "3"
+			(uuid "cd622c26-b459-4ca5-afa0-cb20afbab6c0")
+		)
+		(pin "4"
+			(uuid "d34c5cb4-7d93-44d2-afd7-2d2ca60b9c18")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 365.76 126.8222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2624c004-2c71-4de1-a813-b374168f9998")
+		(property "Reference" "Q?"
+			(at 369.189 134.1882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 369.189 136.7282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 365.76 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 365.76 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 357.632 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 357.632 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f52cc71-6ed8-4dd4-8a75-a14e35ed849c")
+		)
+		(pin "2"
+			(uuid "c73b8c43-e5d4-4649-b97e-bb93f232647b")
+		)
+		(pin "1"
+			(uuid "7ed33e5c-eb1b-449c-8a8b-5d21c9e9bf67")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 93.98 170.0022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "267b104f-84de-474d-8fa9-388db8c68d84")
+		(property "Reference" "#PWR?"
+			(at 93.98 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 176.3522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 170.0022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "16e12e45-5c15-4355-8343-fa50f2b59f58")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 292.1 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3398ae45-88bd-4d09-ae20-37b758634ad3")
+		(property "Reference" "R?"
+			(at 294.386 133.5532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 294.386 137.8712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 292.1 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ecbcd4a-ae4e-44bd-ba03-b505d8420d00")
+		)
+		(pin "2"
+			(uuid "79947fc3-99be-4355-a3aa-12b43294946a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 17.78 50.6222 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "350842ec-d0a0-4052-a0df-6d1084708262")
+		(property "Reference" "#PWR?"
+			(at 17.78 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 17.78 46.8122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fe6e7cc5-207c-4311-8e86-7bc90b13db72")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 304.8 172.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a6b83b2-3fe3-4bc1-8df3-2f8b12c743c1")
+		(property "Reference" "R?"
+			(at 305.689 177.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 305.689 179.9082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 304.8 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "005e5893-dbf3-44e4-83bc-558838088b8d")
+		)
+		(pin "1"
+			(uuid "e0a6fc54-939a-44dc-bcc6-8ae42a36e5c8")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 264.16 126.8222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "412e2714-2ef0-48af-a71c-4c2d01aa40d4")
+		(property "Reference" "Q?"
+			(at 267.589 134.1882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 267.589 136.7282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 264.16 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 264.16 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 256.032 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 256.032 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8e1d5d68-079d-431a-9649-390eb9c0741d")
+		)
+		(pin "1"
+			(uuid "0adf4df0-5a12-4a21-9faa-76a7d026892e")
+		)
+		(pin "2"
+			(uuid "8022ffd9-9a6c-4010-9420-850f26e5222d")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 93.98 121.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46d56785-c572-4cec-9102-9de366ecc860")
+		(property "Reference" "#PWR?"
+			(at 93.98 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5427994c-e309-4710-b076-4c115eb3a0e4")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 45.72 187.7822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49210210-13a5-448e-9ccc-ac49697bb0d8")
+		(property "Reference" "#PWR?"
+			(at 45.72 187.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 194.1322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 187.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 187.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 187.7822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4942c2d0-f0c1-40f4-a641-9ed9614cef6b")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 355.6 121.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c10682-3251-46cc-9b8d-661bf2bb7e4a")
+		(property "Reference" "R?"
+			(at 356.489 126.5682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 356.489 129.1082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 355.6 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb3774b-94d1-42d8-82e3-9d4bcd52c4ca")
+		)
+		(pin "2"
+			(uuid "4847cb99-ab9b-4e61-bf37-cd2e03443bd4")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 213.36 177.6222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54332e50-96b1-42fe-8a56-ad3fc8375a65")
+		(property "Reference" "Q?"
+			(at 216.789 184.9882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 216.789 187.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 213.36 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 213.36 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 205.232 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 205.232 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14a711e4-524f-4185-b2d8-b404a47a8339")
+		)
+		(pin "1"
+			(uuid "da247941-64be-4386-8fe1-5906eed49cf2")
+		)
+		(pin "3"
+			(uuid "5556ef1e-ce6a-4299-8550-43c343b6116a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 17.78 93.8022 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56559815-9e4a-446d-8193-1c979bab9db0")
+		(property "Reference" "#PWR?"
+			(at 17.78 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 17.78 89.9922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "47f59cc3-58d1-4c44-a8d7-1931605dcdab")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_mirrored_Resistor")
+		(at 58.42 167.4622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a7eab8f-f898-40d9-acac-86f150d62398")
+		(property "Reference" "R?"
+			(at 50.546 166.5732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 50.546 170.8912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 58.42 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15fd093f-37f1-4946-847c-09220c9a7d56")
+		)
+		(pin "1"
+			(uuid "d9ecc3e8-c95f-43c0-bed3-45cd1ea5473e")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 264.16 177.6222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ecf5e6c-b6d5-456b-bc43-3917bfdbbb8a")
+		(property "Reference" "Q?"
+			(at 267.589 184.9882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 267.589 187.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 264.16 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 264.16 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 256.032 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 256.032 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cf519a4b-5e20-4364-82a7-0eba86a6f703")
+		)
+		(pin "1"
+			(uuid "85a40581-b9a8-466c-8e98-0398f74da49f")
+		)
+		(pin "2"
+			(uuid "a3072bcb-ccd1-46fa-886d-4d99487b4149")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 241.3 185.2422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fa78ab9-3edb-4957-845d-4b4ed9ad368d")
+		(property "Reference" "R?"
+			(at 243.586 184.3532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 243.586 188.6712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 241.3 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e03a83-030f-41fe-9303-797d625cfd0a")
+		)
+		(pin "2"
+			(uuid "5ef78e77-bb0e-45a7-bb9a-408294e35295")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 86.36 195.4022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fe84f78-4793-4924-b3f2-b30b24613c31")
+		(property "Reference" "#PWR?"
+			(at 86.36 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 201.7522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 195.4022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "637dea98-4441-4b8a-8ac0-28531127120b")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 17.78 109.0422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6173a859-3086-4436-8512-b5b1e232ce64")
+		(property "Reference" "#PWR?"
+			(at 17.78 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 115.3922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 109.0422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5f92ef95-b711-4fba-9ec5-63dd1c819beb")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 355.6 172.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a830d73-6f49-43d5-ac49-cf335ce40557")
+		(property "Reference" "R?"
+			(at 356.489 177.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 356.489 179.9082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 355.6 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5422a13e-a506-463e-a676-8fe93a0ee8d6")
+		)
+		(pin "2"
+			(uuid "63ceddfd-04c0-436f-a77b-893870857e4d")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_mirrored_Capacitor - Non Polarized")
+		(at 86.36 182.7022 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b29c0aa-c8ff-44ae-bbf6-4b16d5369197")
+		(property "Reference" "C?"
+			(at 89.154 187.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 89.154 190.0682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 86.36 182.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 182.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 86.36 182.7022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7878080-9971-44c0-9373-f8b1625564f5")
+		)
+		(pin "2"
+			(uuid "a14de1ae-2fef-4f8b-a3ac-025e7d9a72f4")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_74HC595")
+		(at 60.96 53.1622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f77d206-8cfb-41f0-a264-c5ec061a0707")
+		(property "Reference" "U?"
+			(at 66.04 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 66.04 81.1022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "TSSOP16"
+			(at 60.96 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shift Register"
+			(at 60.96 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "496dccc0-a5a2-4ffe-b387-c5e1d61bbb73")
+		)
+		(pin "13"
+			(uuid "2f6de58b-54de-4237-8018-d465841bf5c7")
+		)
+		(pin "14"
+			(uuid "c29ee4c5-e925-43f9-b3ee-f55e340cf37e")
+		)
+		(pin "16"
+			(uuid "60423b44-08d2-4ef8-9518-4898ba615087")
+		)
+		(pin "10"
+			(uuid "7db4beb0-3ac7-495e-ba98-55195e1270fa")
+		)
+		(pin "12"
+			(uuid "bfeb6100-ff8e-4c06-a07f-9397d17c0f7b")
+		)
+		(pin "1"
+			(uuid "190e4007-ff13-45a8-901c-e92d8b5d2103")
+		)
+		(pin "8"
+			(uuid "f3e036f5-1ee3-4752-8fc3-02870b9ac57a")
+		)
+		(pin "9"
+			(uuid "d291046d-1167-419f-a6b2-4eff099d0036")
+		)
+		(pin "11"
+			(uuid "13d01512-3383-474a-a269-0eef9232db6b")
+		)
+		(pin "2"
+			(uuid "41c5e3e9-ceda-4a3c-9ba9-830f258e0f16")
+		)
+		(pin "4"
+			(uuid "6db8b2af-61dc-4085-82d7-229d4919c919")
+		)
+		(pin "6"
+			(uuid "829235d0-eeea-466e-b677-009a03ff4952")
+		)
+		(pin "7"
+			(uuid "4162caf3-a86c-473a-a801-149379e6fb74")
+		)
+		(pin "15"
+			(uuid "ee638a5d-3a94-4271-bbb2-9ea965e6dfcf")
+		)
+		(pin "5"
+			(uuid "4da526d6-371e-4733-a309-966d854d76e2")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 213.36 126.8222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fba8c77-ccc6-4a73-bb62-602c2043aab1")
+		(property "Reference" "Q?"
+			(at 216.789 134.1882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 216.789 136.7282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 213.36 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 213.36 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 205.232 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 205.232 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a536fc-f99f-4201-a772-61a9752ab129")
+		)
+		(pin "2"
+			(uuid "1f0398cf-bafe-4d66-a47e-a8e7c0cc1118")
+		)
+		(pin "3"
+			(uuid "e4794a55-5a43-4e0d-b7ce-b9e62cac8fe4")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 17.78 65.8622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74afeb9d-f7f0-47d0-a51c-940f2efd4d87")
+		(property "Reference" "#PWR?"
+			(at 17.78 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 72.2122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a32ace50-9705-42df-b7fa-46730831af2e")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Capacitor - Non Polarized")
+		(at 17.78 96.3422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a07b964-be69-4340-8931-40ac454b899c")
+		(property "Reference" "C?"
+			(at 20.574 101.1682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 20.574 103.7082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 17.78 96.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 96.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 17.78 96.3422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32c90809-8879-45f0-83d1-d9f55077c70c")
+		)
+		(pin "1"
+			(uuid "491297bb-400d-4781-a681-5905095fa7c0")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 264.16 65.8622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b958704-b60f-46bb-b4e2-55f8bdf7d93a")
+		(property "Reference" "#PWR?"
+			(at 264.16 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 264.16 62.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "08d32152-73d9-474b-9b28-52223807b1c0")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 203.2 121.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ce16db0-c1ea-4267-9caa-6df2ac3ee5ae")
+		(property "Reference" "R?"
+			(at 204.089 126.5682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 204.089 129.1082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 203.2 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bbec952-6097-41b4-9af1-4eef5131f79d")
+		)
+		(pin "2"
+			(uuid "7b4c8bb9-e1fc-44fa-b239-ea7d6ffca3f0")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 304.8 70.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83dbbcd2-6e4c-4369-9178-2a5175fcb6b1")
+		(property "Reference" "R?"
+			(at 305.689 75.7682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 305.689 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 304.8 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd467de0-14a5-41a7-9402-da6bd561de8e")
+		)
+		(pin "2"
+			(uuid "a9e2fa22-8771-4ca6-8ab6-5237c087b908")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 190.5 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8585d41a-5d05-473e-adee-9fb44e642795")
+		(property "Reference" "R?"
+			(at 192.786 133.5532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 192.786 137.8712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 190.5 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91bfbfcb-f06b-42e6-a233-2a8f0cb8209d")
+		)
+		(pin "2"
+			(uuid "0b4f8541-6707-4df4-8b93-2aa84322e349")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 355.6 70.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "950765b6-73da-485b-9cf6-47d588385386")
+		(property "Reference" "R?"
+			(at 356.489 75.7682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 356.489 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 355.6 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e6592b4-ebcb-47b3-a9f2-d8f70f84d1a1")
+		)
+		(pin "2"
+			(uuid "3eb00336-62de-48c2-b897-21946969a1cb")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 314.96 177.6222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ab4304-4106-4515-b7a8-08cc25239d12")
+		(property "Reference" "Q?"
+			(at 318.389 184.9882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 318.389 187.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 314.96 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 314.96 177.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 306.832 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 306.832 177.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c5660f3f-2bf6-4819-a3f8-9cd9d6cdeff5")
+		)
+		(pin "1"
+			(uuid "e08f2d96-3e09-4888-9063-eb715c79e85a")
+		)
+		(pin "2"
+			(uuid "c47dabc0-2ddd-4bce-84e2-a69aec2ffb2f")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 58.42 50.6222 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96dd8c26-9e9f-49ce-9576-2e22c410f152")
+		(property "Reference" "#PWR?"
+			(at 58.42 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 58.42 46.8122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 50.6222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d8d1f3aa-ee5a-4a8d-9982-4fe886243dfa")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 314.96 65.8622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97471bd7-052d-4a6f-a5b0-e76b5f4e8695")
+		(property "Reference" "#PWR?"
+			(at 314.96 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 314.96 62.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcf383ea-a7ed-45a1-a491-473753f2e9b2")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 213.36 167.4622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aecd07c-feba-43c8-8952-21a9d99d3491")
+		(property "Reference" "#PWR?"
+			(at 213.36 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 213.36 163.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b2f583ea-c862-48b3-8da1-fb44bfd3d9be")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 93.98 78.5622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a59123bb-91da-43e5-935a-8e199de8fd23")
+		(property "Reference" "#PWR?"
+			(at 93.98 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 84.9122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 78.5622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b3acd637-d912-4ee7-838c-b0aa2254ce33")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 292.1 185.2422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ada531d3-2b85-48d3-acc6-6c9327c2888f")
+		(property "Reference" "R?"
+			(at 294.386 184.3532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 294.386 188.6712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 292.1 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 292.1 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a338eda-e8d2-40cf-9ae2-0af542e3b8fb")
+		)
+		(pin "2"
+			(uuid "2f5e0c3e-0660-44af-b068-491c54c67563")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 203.2 70.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae8eacbc-fb04-42bd-850a-baa32ed4216c")
+		(property "Reference" "R?"
+			(at 204.089 75.7682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 204.089 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 203.2 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81fb1689-d630-4d08-be95-0aca4826c6b8")
+		)
+		(pin "2"
+			(uuid "873f17d7-7cc9-4002-8867-83d1e4618444")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 58.42 142.0622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b742213a-4814-43c6-a71c-6f5f6c2bdc18")
+		(property "Reference" "#PWR?"
+			(at 58.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 58.42 138.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 142.0622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cf4d3dc8-1f0a-4a3f-8c0d-4b2f24454289")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 314.96 76.0222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9aa5a93-e9bd-43ef-bafc-eec79c1395cc")
+		(property "Reference" "Q?"
+			(at 318.389 83.3882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 318.389 85.9282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 314.96 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 314.96 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 306.832 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 306.832 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce5bfae-0980-47b7-9c4e-d059429c3a3c")
+		)
+		(pin "2"
+			(uuid "d2f1939c-c363-4725-a041-aa6875d66c15")
+		)
+		(pin "3"
+			(uuid "8277b564-cef6-4568-9edd-08f8527dfa69")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 342.9 185.2422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd7c54ef-77a7-47c1-ae7a-9c2c4db70f67")
+		(property "Reference" "R?"
+			(at 345.186 184.3532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.186 188.6712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 342.9 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 342.9 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2690201f-bdbd-436d-8531-0d5c0b808c66")
+		)
+		(pin "1"
+			(uuid "f0848171-94c3-446a-80bd-403d210c8c2f")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 314.96 126.8222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c654bd38-8976-487f-a23d-819297ba1e76")
+		(property "Reference" "Q?"
+			(at 318.389 134.1882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 318.389 136.7282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 314.96 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 314.96 126.8222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 306.832 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 306.832 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ae03f31-dae9-4b39-adf4-377ec6f71e68")
+		)
+		(pin "2"
+			(uuid "dca4d3eb-d33f-405e-9339-2ada1b2806e5")
+		)
+		(pin "3"
+			(uuid "2ebc6a72-78e9-46b5-86b7-c19c3eeab48c")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 190.5 185.2422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca4315f2-d4ec-4ad1-a223-d6806a1ac20d")
+		(property "Reference" "R?"
+			(at 192.786 184.3532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 192.786 188.6712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 190.5 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 185.2422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cedab3c7-95b3-4e10-a984-01bede9e405e")
+		)
+		(pin "2"
+			(uuid "d2d196a0-8f6c-4598-aa31-e12a0af6bc09")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 342.9 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cac27c65-ccb0-473c-aa82-42daea83ad82")
+		(property "Reference" "R?"
+			(at 345.186 133.5532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.186 137.8712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 342.9 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 342.9 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "472f033e-c1ef-418d-9508-3189716b8bf0")
+		)
+		(pin "1"
+			(uuid "0f8f26bb-dbd0-4486-823c-eee8d03bb63a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 254 70.9422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cebbba71-d0c2-41b5-93e5-3b9dced94db5")
+		(property "Reference" "R?"
+			(at 254.889 75.7682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 254.889 78.3082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 254 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 70.9422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6491e64d-2528-429f-a4a6-07893cc1edaa")
+		)
+		(pin "2"
+			(uuid "745c0ffc-83d5-4bed-8599-950be482e7d4")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 264.16 116.6622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf12fea9-d2c5-4ebf-943e-c5b44127f9f5")
+		(property "Reference" "#PWR?"
+			(at 264.16 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 264.16 112.8522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "23aed19b-22f5-4211-b6e6-4452ada0ff6a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 58.42 93.8022 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfeea8a0-a7ca-464f-8489-177b172fde8c")
+		(property "Reference" "#PWR?"
+			(at 58.42 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 58.42 89.9922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 93.8022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f41da5e9-305a-4276-ace6-bfc5e1a9e8af")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 264.16 167.4622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d19e820b-82e7-476b-90fc-e422a0651799")
+		(property "Reference" "#PWR?"
+			(at 264.16 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 264.16 163.6522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 167.4622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b1f78062-b2eb-4aab-a80f-eabc194957ca")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 254 172.5422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b68159-579c-47ab-8000-ef28d75157ca")
+		(property "Reference" "R?"
+			(at 254.889 177.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 254.889 179.9082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 254 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 172.5422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7213a8ac-e4e4-41ec-b9bc-ad4f61a838a2")
+		)
+		(pin "2"
+			(uuid "e9de0a22-dabb-4dff-9c28-604e5cfe6759")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 365.76 116.6622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee66159-b448-4152-a579-a8573974c389")
+		(property "Reference" "#PWR?"
+			(at 365.76 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 365.76 112.8522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 116.6622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "42348865-f9b8-46fb-a85a-44eaf103d254")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 342.9 83.6422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea09db4b-dc1e-43c1-a4e1-5a29f55ded67")
+		(property "Reference" "R?"
+			(at 345.186 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.186 87.0712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 342.9 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 342.9 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42de34ef-5bf8-43a6-a8e3-5f3e13ce1f79")
+		)
+		(pin "2"
+			(uuid "93d2b641-e784-4a23-b515-6893784a38c8")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 241.3 83.6422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec17b6d7-d40b-4542-9d32-c20c4e7bba65")
+		(property "Reference" "R?"
+			(at 243.586 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 243.586 87.0712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 241.3 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 83.6422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd026ad7-3aa9-46e4-ab24-b154665c172a")
+		)
+		(pin "1"
+			(uuid "49946c2b-0c5a-43f8-bb9a-1ab95e210036")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_3_SI2305")
+		(at 264.16 76.0222 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec5e8634-b4a8-4571-8610-b296d9cf64e2")
+		(property "Reference" "Q?"
+			(at 267.589 83.3882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SI2305"
+			(at 267.589 85.9282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT23"
+			(at 264.16 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose P-Channel MOSFET"
+			(at 264.16 76.0222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+			(at 256.032 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.vishay.com/docs/64847/si2305cd.pdf"
+			(at 256.032 75.5142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc05e0f9-8f4c-4a03-8360-246d0ecb7f85")
+		)
+		(pin "2"
+			(uuid "1ed08ff9-3ebc-4077-9d2f-0c3a9c6492ac")
+		)
+		(pin "3"
+			(uuid "7713fcab-82e1-423c-b94a-3f8c315fdff4")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Resistor")
+		(at 254 121.7422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee412daa-cae8-4f59-b350-51cb737aa6fe")
+		(property "Reference" "R?"
+			(at 254.889 126.5682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 254.889 129.1082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 254 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 121.7422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bb4c904-b6d2-402e-a204-06346e600499")
+		)
+		(pin "2"
+			(uuid "dd658f5a-65e7-4d83-a314-39771979c029")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Capacitor - Non Polarized")
+		(at 17.78 53.1622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee56a405-4c3c-4ca2-a590-6c024d05b63c")
+		(property "Reference" "C?"
+			(at 20.574 57.9882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 20.574 60.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 17.78 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 17.78 53.1622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc02470e-1506-4cdd-ac09-55a6a330fe7f")
+		)
+		(pin "2"
+			(uuid "704e20e9-7913-44f0-8ebc-13a16bd8c3bf")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_1_Resistor")
+		(at 241.3 134.4422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee6102bc-7d04-4a72-93eb-24b114ad1365")
+		(property "Reference" "R?"
+			(at 243.586 133.5532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 243.586 137.8712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 241.3 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 134.4422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79c7510b-f6d5-475a-ab03-ba0bc3758ddd")
+		)
+		(pin "1"
+			(uuid "5426a7af-a475-40a9-830d-861887eee03e")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 365.76 65.8622 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef00df85-8211-4b9c-91d3-5ce2b53f7c83")
+		(property "Reference" "#PWR?"
+			(at 365.76 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 365.76 62.0522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 65.8622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "639cb929-7857-404f-8e3b-9eff69346601")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Designator_0_Potentiometer")
+		(at 45.72 175.0822 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8892209-082e-4da3-9863-1c1abc783708")
+		(property "Reference" "R?"
+			(at 51.308 177.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50k"
+			(at 51.308 179.9082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "3339P1103LF"
+			(at 45.72 175.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 175.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentionmeter"
+			(at 45.72 175.0822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "82c457c0-ad9d-4f17-aa1e-3b32c08ebf8f")
+		)
+		(pin "1"
+			(uuid "365ce3c5-e511-44ed-9483-614e077f36f0")
+		)
+		(pin "2"
+			(uuid "57e2eb30-f87c-4dfd-a2c3-e09056298bd7")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 236.0422)
+		(size 22.86 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 143 158 201 1)
+		)
+		(fill
+			(color 237 242 251 1.0000)
+		)
+		(uuid "0249b14f-8aab-4778-809d-1bcec22fa4d0")
+		(property "Sheetname" ""
+			(at 43.18 235.3306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" ""
+			(at 43.18 249.3268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(page "Harness #")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 218.2622)
+		(size 22.86 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 143 158 201 1)
+		)
+		(fill
+			(color 237 242 251 1.0000)
+		)
+		(uuid "6a286bc9-a822-4429-8580-f26d17897df9")
+		(property "Sheetname" "COL_SR"
+			(at 43.18 218.2622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 128 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "COL_SR.kicad_sch"
+			(at 43.18 231.5468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COL_SH_CP" passive
+			(at 43.18 220.8022 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42623ee5-32f8-4796-8e56-a8ad0833e5ac")
+		)
+		(pin "COL_ST_CP" passive
+			(at 43.18 223.3422 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "625e5549-2555-4954-955d-83f0012c624b")
+		)
+		(pin "COL_OE" passive
+			(at 43.18 225.8822 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12cddcbf-5fc4-4271-8aff-9b611ef58fa4")
+		)
+		(pin "COL_DS" passive
+			(at 43.18 228.4222 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa411764-993a-433f-82ea-cd59bf5c0852")
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/757e3406-0e26-4572-9ff1-f0c1b24a4d6b"
+					(page "Harness #")
+				)
+			)
+		)
+	)
+)

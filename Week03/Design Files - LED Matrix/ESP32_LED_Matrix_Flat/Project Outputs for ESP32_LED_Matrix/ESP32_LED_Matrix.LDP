@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\IEEE-PCB-Workshop\Altium\ESP32_LED_Driver\ESP32_LED_Matrix.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=esp32_led_matrix-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=esp32_led_matrix-slotholes.txt|DrillLayers=gtl,gbl

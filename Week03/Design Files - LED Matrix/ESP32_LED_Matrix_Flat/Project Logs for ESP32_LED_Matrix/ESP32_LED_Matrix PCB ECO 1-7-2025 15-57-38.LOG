@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=+3.3 Pin=Q1-2
+Removed Pin From Net: NetName=+3.3 Pin=Q2-2
+Removed Pin From Net: NetName=+3.3 Pin=Q3-2
+Removed Pin From Net: NetName=+3.3 Pin=Q4-2
+Removed Pin From Net: NetName=+3.3 Pin=Q5-2
+Removed Pin From Net: NetName=+3.3 Pin=Q6-2
+Removed Pin From Net: NetName=+3.3 Pin=Q7-2
+Removed Pin From Net: NetName=+3.3 Pin=Q8-2
+Removed Pin From Net: NetName=+3.3 Pin=Q9-2
+Removed Pin From Net: NetName=+3.3 Pin=Q10-2
+Removed Pin From Net: NetName=+3.3 Pin=Q11-2
+Removed Pin From Net: NetName=+3.3 Pin=Q12-2
+Removed Pin From Net: NetName=+3.3 Pin=R1-1
+Removed Pin From Net: NetName=+3.3 Pin=R2-1
+Removed Pin From Net: NetName=+3.3 Pin=R6-1
+Removed Pin From Net: NetName=+3.3 Pin=R7-1
+Removed Pin From Net: NetName=+3.3 Pin=R10-1
+Removed Pin From Net: NetName=+3.3 Pin=R11-1
+Removed Pin From Net: NetName=+3.3 Pin=R15-1
+Removed Pin From Net: NetName=+3.3 Pin=R16-1
+Removed Pin From Net: NetName=+3.3 Pin=R19-1
+Removed Pin From Net: NetName=+3.3 Pin=R20-1
+Removed Pin From Net: NetName=+3.3 Pin=R23-1
+Removed Pin From Net: NetName=+3.3 Pin=R24-1
+Added Pin To Net: NetName=VCC_1 Pin=Q1-2
+Added Pin To Net: NetName=VCC_1 Pin=Q2-2
+Added Pin To Net: NetName=VCC_1 Pin=Q3-2
+Added Pin To Net: NetName=VCC_1 Pin=Q4-2
+Added Pin To Net: NetName=VCC_1 Pin=Q5-2
+Added Pin To Net: NetName=VCC_1 Pin=Q6-2
+Added Pin To Net: NetName=VCC_1 Pin=Q7-2
+Added Pin To Net: NetName=VCC_1 Pin=Q8-2
+Added Pin To Net: NetName=VCC_1 Pin=Q9-2
+Added Pin To Net: NetName=VCC_1 Pin=Q10-2
+Added Pin To Net: NetName=VCC_1 Pin=Q11-2
+Added Pin To Net: NetName=VCC_1 Pin=Q12-2
+Added Pin To Net: NetName=VCC_1 Pin=R1-1
+Added Pin To Net: NetName=VCC_1 Pin=R2-1
+Added Pin To Net: NetName=VCC_1 Pin=R6-1
+Added Pin To Net: NetName=VCC_1 Pin=R7-1
+Added Pin To Net: NetName=VCC_1 Pin=R10-1
+Added Pin To Net: NetName=VCC_1 Pin=R11-1
+Added Pin To Net: NetName=VCC_1 Pin=R15-1
+Added Pin To Net: NetName=VCC_1 Pin=R16-1
+Added Pin To Net: NetName=VCC_1 Pin=R19-1
+Added Pin To Net: NetName=VCC_1 Pin=R20-1
+Added Pin To Net: NetName=VCC_1 Pin=R23-1
+Added Pin To Net: NetName=VCC_1 Pin=R24-1
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R15 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R16 100k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R18 10k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R29 1k
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component R30 50k

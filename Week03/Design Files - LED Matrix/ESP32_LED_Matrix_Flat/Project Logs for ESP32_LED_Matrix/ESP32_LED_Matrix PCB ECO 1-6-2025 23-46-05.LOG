@@ -1,0 +1,1029 @@
+Added Component: Designator=C1(CAP0805)
+Added Component: Designator=C2(CAP0805)
+Added Component: Designator=C3(CAP0805)
+Added Component: Designator=C4(CAP0805)
+Added Component: Designator=C5(CAP0805)
+Added Component: Designator=C6(CAP0805)
+Added Component: Designator=C7(CAP0805)
+Added Component: Designator=C8(CAP0805)
+Added Component: Designator=C9(CAP0805)
+Added Component: Designator=C10(CAP0805)
+Added Component: Designator=C11(CAP0805)
+Added Component: Designator=C12(CAP0805)
+Added Component: Designator=C13(CAP0805)
+Added Component: Designator=D1(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D2(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D3(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D4(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D5(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D6(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D7(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D8(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D9(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D10(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D11(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D12(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D13(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D14(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D15(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D16(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D17(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D18(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D19(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D20(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D21(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D22(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D23(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D24(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D25(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D26(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D27(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D28(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D29(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D30(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D31(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D32(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D33(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D34(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D35(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D36(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D37(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D38(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D39(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D40(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D41(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D42(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D43(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D44(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D45(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D46(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D47(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D48(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D49(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D50(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D51(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D52(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D53(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D54(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D55(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D56(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D57(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D58(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D59(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D60(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D61(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D62(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D63(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D64(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D65(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D66(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D67(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D68(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D69(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D70(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D71(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D72(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D73(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D74(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D75(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D76(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D77(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D78(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D79(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D80(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D81(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D82(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D83(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D84(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D85(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D86(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D87(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D88(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D89(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D90(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D91(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D92(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D93(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D94(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D95(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=D96(LEDM2012X80N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.smc-diodes.com/propdf/1N4148W%20N0571%20REV.E.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=H1(Header_1X16)
+Added Component: Designator=H2(Header_1X16)
+Added Component: Designator=H3(Header_1X16)
+Added Component: Designator=H4(Header_1X8)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=H5(Header_1X4)
+Added Component: Designator=J1(USB TYPE C 12 PIN)
+Added Component: Designator=Q1(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q3(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q4(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q5(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q6(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q7(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q8(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q9(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q10(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q11(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=Q12(SOT23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/64847/si2305cd.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RESC0805)
+Added Component: Designator=R2(RESC0805)
+Added Component: Designator=R3(RESC0805)
+Added Component: Designator=R4(RESC0805)
+Added Component: Designator=R5(RESC0805)
+Added Component: Designator=R6(RESC0805)
+Added Component: Designator=R7(RESC0805)
+Added Component: Designator=R8(RESC0805)
+Added Component: Designator=R9(RESC0805)
+Added Component: Designator=R10(RESC0805)
+Added Component: Designator=R11(RESC0805)
+Added Component: Designator=R12(RESC0805)
+Added Component: Designator=R14(RESC0805)
+Added Component: Designator=R15(RESC0805)
+Added Component: Designator=R16(RESC0805)
+Added Component: Designator=R17(RESC0805)
+Added Component: Designator=R18(RESC0805)
+Added Component: Designator=R19(RESC0805)
+Added Component: Designator=R20(RESC0805)
+Added Component: Designator=R21(RESC0805)
+Added Component: Designator=R22(RESC0805)
+Added Component: Designator=R23(RESC0805)
+Added Component: Designator=R24(RESC0805)
+Added Component: Designator=R25(RESC0805)
+Added Component: Designator=R26(RESC0805)
+Added Component: Designator=R27(RESC0805)
+Added Component: Designator=R28(RESC0805)
+Added Component: Designator=R29(RESC0805)
+Added Component: Designator=R30(RESC0805)
+Added Component: Designator=R31(3339P1103LF)
+Added Component: Designator=R?(RESC0805)
+Added Component: Designator=SW1(Tactile Button 6.0mm x 6.0mm)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TS04-66-73-BK-100-SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ts04-66-73-bk-100-smt/cui-devices?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.sameskydevices.com/product/resource/supplyframepdf/ts04.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TS04-66-73-BK-100-SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "179-TS046673BK100SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Same-Sky/TS04-66-73-BK-100-SMT?qs=A6eO%252BMLsxmRAmp3wqRUzZw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=SW2(Tactile Button 6.0mm x 6.0mm)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TS04-66-73-BK-100-SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ts04-66-73-bk-100-smt/cui-devices?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.sameskydevices.com/product/resource/supplyframepdf/ts04.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TS04-66-73-BK-100-SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "179-TS046673BK100SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Same-Sky/TS04-66-73-BK-100-SMT?qs=A6eO%252BMLsxmRAmp3wqRUzZw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U1(ESP32-S3-WROOM-1-N8)
+Added Component: Designator=U2(SC70-6)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/lm66100dckr/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/gpn/LM66100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U3(SOT223)
+Added Component: Designator=U4(TSSOP16)
+Added Component: Designator=U5(TSSOP16)
+Added Component: Designator=U6(TSSOP16)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "STP08DP05TTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/stp08dp05ttr/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/STP08DP05TTR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STP08DP05TTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-STP08DP05TTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STP08DP05TTR?qs=xgiOkRdDJ0m7T%2FaY25F5vQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U7(SC70-6)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/lm66100dckr/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/gpn/LM66100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-LM66100DCKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=C1-1
+Added Pin To Net: NetName=+3.3 Pin=C2-1
+Added Pin To Net: NetName=+3.3 Pin=C7-1
+Added Pin To Net: NetName=+3.3 Pin=C8-1
+Added Pin To Net: NetName=+3.3 Pin=C9-1
+Added Pin To Net: NetName=+3.3 Pin=C10-1
+Added Pin To Net: NetName=+3.3 Pin=C11-1
+Added Pin To Net: NetName=+3.3 Pin=C12-1
+Added Pin To Net: NetName=+3.3 Pin=C13-1
+Added Pin To Net: NetName=+3.3 Pin=H1-1
+Added Pin To Net: NetName=+3.3 Pin=H1-2
+Added Pin To Net: NetName=+3.3 Pin=H1-3
+Added Pin To Net: NetName=+3.3 Pin=H2-1
+Added Pin To Net: NetName=+3.3 Pin=H2-2
+Added Pin To Net: NetName=+3.3 Pin=H3-1
+Added Pin To Net: NetName=+3.3 Pin=H3-2
+Added Pin To Net: NetName=+3.3 Pin=H5-1
+Added Pin To Net: NetName=+3.3 Pin=Q1-2
+Added Pin To Net: NetName=+3.3 Pin=Q2-2
+Added Pin To Net: NetName=+3.3 Pin=Q3-2
+Added Pin To Net: NetName=+3.3 Pin=Q4-2
+Added Pin To Net: NetName=+3.3 Pin=Q5-2
+Added Pin To Net: NetName=+3.3 Pin=Q6-2
+Added Pin To Net: NetName=+3.3 Pin=Q7-2
+Added Pin To Net: NetName=+3.3 Pin=Q8-2
+Added Pin To Net: NetName=+3.3 Pin=Q9-2
+Added Pin To Net: NetName=+3.3 Pin=Q10-2
+Added Pin To Net: NetName=+3.3 Pin=Q11-2
+Added Pin To Net: NetName=+3.3 Pin=Q12-2
+Added Pin To Net: NetName=+3.3 Pin=R1-1
+Added Pin To Net: NetName=+3.3 Pin=R2-1
+Added Pin To Net: NetName=+3.3 Pin=R5-1
+Added Pin To Net: NetName=+3.3 Pin=R6-1
+Added Pin To Net: NetName=+3.3 Pin=R9-1
+Added Pin To Net: NetName=+3.3 Pin=R10-1
+Added Pin To Net: NetName=+3.3 Pin=R15-1
+Added Pin To Net: NetName=+3.3 Pin=R16-1
+Added Pin To Net: NetName=+3.3 Pin=R20-1
+Added Pin To Net: NetName=+3.3 Pin=R21-1
+Added Pin To Net: NetName=+3.3 Pin=R24-1
+Added Pin To Net: NetName=+3.3 Pin=R25-1
+Added Pin To Net: NetName=+3.3 Pin=R?-1
+Added Pin To Net: NetName=+3.3 Pin=U1-2
+Added Pin To Net: NetName=+3.3 Pin=U2-3
+Added Pin To Net: NetName=+3.3 Pin=U2-6
+Added Pin To Net: NetName=+3.3 Pin=U4-10
+Added Pin To Net: NetName=+3.3 Pin=U4-16
+Added Pin To Net: NetName=+3.3 Pin=U5-10
+Added Pin To Net: NetName=+3.3 Pin=U5-16
+Added Pin To Net: NetName=+3.3 Pin=U6-16
+Added Pin To Net: NetName=+3.3 Pin=U7-3
+Added Pin To Net: NetName=+3.3 Pin=U7-6
+Added Net: Name=+3.3
+Added Pin To Net: NetName=COL_1 Pin=D1-2
+Added Pin To Net: NetName=COL_1 Pin=D13-2
+Added Pin To Net: NetName=COL_1 Pin=D25-2
+Added Pin To Net: NetName=COL_1 Pin=D37-2
+Added Pin To Net: NetName=COL_1 Pin=D49-2
+Added Pin To Net: NetName=COL_1 Pin=D61-2
+Added Pin To Net: NetName=COL_1 Pin=D73-2
+Added Pin To Net: NetName=COL_1 Pin=D85-2
+Added Pin To Net: NetName=COL_1 Pin=Q1-3
+Added Net: Name=COL_1
+Added Pin To Net: NetName=COL_2 Pin=D2-2
+Added Pin To Net: NetName=COL_2 Pin=D14-2
+Added Pin To Net: NetName=COL_2 Pin=D26-2
+Added Pin To Net: NetName=COL_2 Pin=D38-2
+Added Pin To Net: NetName=COL_2 Pin=D50-2
+Added Pin To Net: NetName=COL_2 Pin=D62-2
+Added Pin To Net: NetName=COL_2 Pin=D74-2
+Added Pin To Net: NetName=COL_2 Pin=D86-2
+Added Pin To Net: NetName=COL_2 Pin=Q3-3
+Added Net: Name=COL_2
+Added Pin To Net: NetName=COL_3 Pin=D3-2
+Added Pin To Net: NetName=COL_3 Pin=D15-2
+Added Pin To Net: NetName=COL_3 Pin=D27-2
+Added Pin To Net: NetName=COL_3 Pin=D39-2
+Added Pin To Net: NetName=COL_3 Pin=D51-2
+Added Pin To Net: NetName=COL_3 Pin=D63-2
+Added Pin To Net: NetName=COL_3 Pin=D75-2
+Added Pin To Net: NetName=COL_3 Pin=D87-2
+Added Pin To Net: NetName=COL_3 Pin=Q5-3
+Added Net: Name=COL_3
+Added Pin To Net: NetName=COL_4 Pin=D4-2
+Added Pin To Net: NetName=COL_4 Pin=D16-2
+Added Pin To Net: NetName=COL_4 Pin=D28-2
+Added Pin To Net: NetName=COL_4 Pin=D40-2
+Added Pin To Net: NetName=COL_4 Pin=D52-2
+Added Pin To Net: NetName=COL_4 Pin=D64-2
+Added Pin To Net: NetName=COL_4 Pin=D76-2
+Added Pin To Net: NetName=COL_4 Pin=D88-2
+Added Pin To Net: NetName=COL_4 Pin=Q7-3
+Added Net: Name=COL_4
+Added Pin To Net: NetName=COL_5 Pin=D5-2
+Added Pin To Net: NetName=COL_5 Pin=D17-2
+Added Pin To Net: NetName=COL_5 Pin=D29-2
+Added Pin To Net: NetName=COL_5 Pin=D41-2
+Added Pin To Net: NetName=COL_5 Pin=D53-2
+Added Pin To Net: NetName=COL_5 Pin=D65-2
+Added Pin To Net: NetName=COL_5 Pin=D77-2
+Added Pin To Net: NetName=COL_5 Pin=D89-2
+Added Pin To Net: NetName=COL_5 Pin=Q9-3
+Added Net: Name=COL_5
+Added Pin To Net: NetName=COL_6 Pin=D6-2
+Added Pin To Net: NetName=COL_6 Pin=D18-2
+Added Pin To Net: NetName=COL_6 Pin=D30-2
+Added Pin To Net: NetName=COL_6 Pin=D42-2
+Added Pin To Net: NetName=COL_6 Pin=D54-2
+Added Pin To Net: NetName=COL_6 Pin=D66-2
+Added Pin To Net: NetName=COL_6 Pin=D78-2
+Added Pin To Net: NetName=COL_6 Pin=D90-2
+Added Pin To Net: NetName=COL_6 Pin=Q11-3
+Added Net: Name=COL_6
+Added Pin To Net: NetName=COL_7 Pin=D7-2
+Added Pin To Net: NetName=COL_7 Pin=D19-2
+Added Pin To Net: NetName=COL_7 Pin=D31-2
+Added Pin To Net: NetName=COL_7 Pin=D43-2
+Added Pin To Net: NetName=COL_7 Pin=D55-2
+Added Pin To Net: NetName=COL_7 Pin=D67-2
+Added Pin To Net: NetName=COL_7 Pin=D79-2
+Added Pin To Net: NetName=COL_7 Pin=D91-2
+Added Pin To Net: NetName=COL_7 Pin=Q2-3
+Added Net: Name=COL_7
+Added Pin To Net: NetName=COL_8 Pin=D8-2
+Added Pin To Net: NetName=COL_8 Pin=D20-2
+Added Pin To Net: NetName=COL_8 Pin=D32-2
+Added Pin To Net: NetName=COL_8 Pin=D44-2
+Added Pin To Net: NetName=COL_8 Pin=D56-2
+Added Pin To Net: NetName=COL_8 Pin=D68-2
+Added Pin To Net: NetName=COL_8 Pin=D80-2
+Added Pin To Net: NetName=COL_8 Pin=D92-2
+Added Pin To Net: NetName=COL_8 Pin=Q4-3
+Added Net: Name=COL_8
+Added Pin To Net: NetName=COL_9 Pin=D9-2
+Added Pin To Net: NetName=COL_9 Pin=D21-2
+Added Pin To Net: NetName=COL_9 Pin=D33-2
+Added Pin To Net: NetName=COL_9 Pin=D45-2
+Added Pin To Net: NetName=COL_9 Pin=D57-2
+Added Pin To Net: NetName=COL_9 Pin=D69-2
+Added Pin To Net: NetName=COL_9 Pin=D81-2
+Added Pin To Net: NetName=COL_9 Pin=D93-2
+Added Pin To Net: NetName=COL_9 Pin=Q6-3
+Added Net: Name=COL_9
+Added Pin To Net: NetName=COL_10 Pin=D10-2
+Added Pin To Net: NetName=COL_10 Pin=D22-2
+Added Pin To Net: NetName=COL_10 Pin=D34-2
+Added Pin To Net: NetName=COL_10 Pin=D46-2
+Added Pin To Net: NetName=COL_10 Pin=D58-2
+Added Pin To Net: NetName=COL_10 Pin=D70-2
+Added Pin To Net: NetName=COL_10 Pin=D82-2
+Added Pin To Net: NetName=COL_10 Pin=D94-2
+Added Pin To Net: NetName=COL_10 Pin=Q8-3
+Added Net: Name=COL_10
+Added Pin To Net: NetName=COL_11 Pin=D11-2
+Added Pin To Net: NetName=COL_11 Pin=D23-2
+Added Pin To Net: NetName=COL_11 Pin=D35-2
+Added Pin To Net: NetName=COL_11 Pin=D47-2
+Added Pin To Net: NetName=COL_11 Pin=D59-2
+Added Pin To Net: NetName=COL_11 Pin=D71-2
+Added Pin To Net: NetName=COL_11 Pin=D83-2
+Added Pin To Net: NetName=COL_11 Pin=D95-2
+Added Pin To Net: NetName=COL_11 Pin=Q10-3
+Added Net: Name=COL_11
+Added Pin To Net: NetName=COL_12 Pin=D12-2
+Added Pin To Net: NetName=COL_12 Pin=D24-2
+Added Pin To Net: NetName=COL_12 Pin=D36-2
+Added Pin To Net: NetName=COL_12 Pin=D48-2
+Added Pin To Net: NetName=COL_12 Pin=D60-2
+Added Pin To Net: NetName=COL_12 Pin=D72-2
+Added Pin To Net: NetName=COL_12 Pin=D84-2
+Added Pin To Net: NetName=COL_12 Pin=D96-2
+Added Pin To Net: NetName=COL_12 Pin=Q12-3
+Added Net: Name=COL_12
+Added Pin To Net: NetName=COL_DS Pin=H1-6
+Added Pin To Net: NetName=COL_DS Pin=U1-6
+Added Pin To Net: NetName=COL_DS Pin=U4-14
+Added Net: Name=COL_DS
+Added Pin To Net: NetName=COL_OE Pin=H1-7
+Added Pin To Net: NetName=COL_OE Pin=U1-7
+Added Pin To Net: NetName=COL_OE Pin=U4-13
+Added Pin To Net: NetName=COL_OE Pin=U5-13
+Added Net: Name=COL_OE
+Added Pin To Net: NetName=COL_SH_CP Pin=H1-4
+Added Pin To Net: NetName=COL_SH_CP Pin=U1-4
+Added Pin To Net: NetName=COL_SH_CP Pin=U4-11
+Added Pin To Net: NetName=COL_SH_CP Pin=U5-11
+Added Net: Name=COL_SH_CP
+Added Pin To Net: NetName=COL_ST_CP Pin=H1-5
+Added Pin To Net: NetName=COL_ST_CP Pin=U1-5
+Added Pin To Net: NetName=COL_ST_CP Pin=U4-12
+Added Pin To Net: NetName=COL_ST_CP Pin=U5-12
+Added Net: Name=COL_ST_CP
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=GND Pin=H1-15
+Added Pin To Net: NetName=GND Pin=H1-16
+Added Pin To Net: NetName=GND Pin=H2-15
+Added Pin To Net: NetName=GND Pin=H2-16
+Added Pin To Net: NetName=GND Pin=H3-15
+Added Pin To Net: NetName=GND Pin=H3-16
+Added Pin To Net: NetName=GND Pin=H4-1
+Added Pin To Net: NetName=GND Pin=H4-3
+Added Pin To Net: NetName=GND Pin=H4-5
+Added Pin To Net: NetName=GND Pin=H4-6
+Added Pin To Net: NetName=GND Pin=H4-8
+Added Pin To Net: NetName=GND Pin=H5-4
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-14
+Added Pin To Net: NetName=GND Pin=J1-15
+Added Pin To Net: NetName=GND Pin=J1-16
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R31-3
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW2-1
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-40
+Added Pin To Net: NetName=GND Pin=U1-41
+Added Pin To Net: NetName=GND Pin=U1-42
+Added Pin To Net: NetName=GND Pin=U1-43
+Added Pin To Net: NetName=GND Pin=U1-44
+Added Pin To Net: NetName=GND Pin=U1-45
+Added Pin To Net: NetName=GND Pin=U1-46
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=GND Pin=U1-48
+Added Pin To Net: NetName=GND Pin=U1-49
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Pin To Net: NetName=GND Pin=U6-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=GND Pin=U7-5
+Added Net: Name=GND
+Added Pin To Net: NetName=GPIO1 Pin=H2-3
+Added Pin To Net: NetName=GPIO1 Pin=U1-39
+Added Net: Name=GPIO1
+Added Pin To Net: NetName=GPIO2 Pin=H2-4
+Added Pin To Net: NetName=GPIO2 Pin=U1-38
+Added Net: Name=GPIO2
+Added Pin To Net: NetName=GPIO3 Pin=H3-3
+Added Pin To Net: NetName=GPIO3 Pin=U1-15
+Added Net: Name=GPIO3
+Added Pin To Net: NetName=GPIO8 Pin=H1-12
+Added Pin To Net: NetName=GPIO8 Pin=U1-12
+Added Net: Name=GPIO8
+Added Pin To Net: NetName=GPIO9 Pin=H3-5
+Added Pin To Net: NetName=GPIO9 Pin=U1-17
+Added Net: Name=GPIO9
+Added Pin To Net: NetName=GPIO10 Pin=H3-6
+Added Pin To Net: NetName=GPIO10 Pin=U1-18
+Added Net: Name=GPIO10
+Added Pin To Net: NetName=GPIO11 Pin=H3-7
+Added Pin To Net: NetName=GPIO11 Pin=U1-19
+Added Net: Name=GPIO11
+Added Pin To Net: NetName=GPIO12 Pin=H3-8
+Added Pin To Net: NetName=GPIO12 Pin=U1-20
+Added Net: Name=GPIO12
+Added Pin To Net: NetName=GPIO13 Pin=H3-9
+Added Pin To Net: NetName=GPIO13 Pin=U1-21
+Added Net: Name=GPIO13
+Added Pin To Net: NetName=GPIO14 Pin=H3-10
+Added Pin To Net: NetName=GPIO14 Pin=U1-22
+Added Net: Name=GPIO14
+Added Pin To Net: NetName=GPIO15 Pin=H1-8
+Added Pin To Net: NetName=GPIO15 Pin=U1-8
+Added Pin To Net: NetName=GPIO15 Pin=U6-3
+Added Net: Name=GPIO15
+Added Pin To Net: NetName=GPIO16 Pin=H1-9
+Added Pin To Net: NetName=GPIO16 Pin=U1-9
+Added Pin To Net: NetName=GPIO16 Pin=U6-4
+Added Net: Name=GPIO16
+Added Pin To Net: NetName=GPIO17 Pin=H1-10
+Added Pin To Net: NetName=GPIO17 Pin=U1-10
+Added Pin To Net: NetName=GPIO17 Pin=U6-2
+Added Net: Name=GPIO17
+Added Pin To Net: NetName=GPIO18 Pin=H1-11
+Added Pin To Net: NetName=GPIO18 Pin=U1-11
+Added Pin To Net: NetName=GPIO18 Pin=U6-13
+Added Net: Name=GPIO18
+Added Pin To Net: NetName=GPIO19 Pin=H1-13
+Added Pin To Net: NetName=GPIO19 Pin=J1-8
+Added Pin To Net: NetName=GPIO19 Pin=J1-10
+Added Pin To Net: NetName=GPIO19 Pin=U1-13
+Added Net: Name=GPIO19
+Added Pin To Net: NetName=GPIO20 Pin=H1-14
+Added Pin To Net: NetName=GPIO20 Pin=J1-7
+Added Pin To Net: NetName=GPIO20 Pin=J1-9
+Added Pin To Net: NetName=GPIO20 Pin=U1-14
+Added Net: Name=GPIO20
+Added Pin To Net: NetName=GPIO21 Pin=H3-11
+Added Pin To Net: NetName=GPIO21 Pin=U1-23
+Added Net: Name=GPIO21
+Added Pin To Net: NetName=GPIO35 Pin=H2-14
+Added Pin To Net: NetName=GPIO35 Pin=U1-28
+Added Net: Name=GPIO35
+Added Pin To Net: NetName=GPIO36 Pin=H2-13
+Added Pin To Net: NetName=GPIO36 Pin=U1-29
+Added Net: Name=GPIO36
+Added Pin To Net: NetName=GPIO37 Pin=H2-12
+Added Pin To Net: NetName=GPIO37 Pin=U1-30
+Added Net: Name=GPIO37
+Added Pin To Net: NetName=GPIO38 Pin=H2-11
+Added Pin To Net: NetName=GPIO38 Pin=U1-31
+Added Net: Name=GPIO38
+Added Pin To Net: NetName=GPIO39 Pin=H2-10
+Added Pin To Net: NetName=GPIO39 Pin=U1-32
+Added Net: Name=GPIO39
+Added Pin To Net: NetName=GPIO40 Pin=H2-9
+Added Pin To Net: NetName=GPIO40 Pin=U1-33
+Added Net: Name=GPIO40
+Added Pin To Net: NetName=GPIO41 Pin=H2-8
+Added Pin To Net: NetName=GPIO41 Pin=U1-34
+Added Net: Name=GPIO41
+Added Pin To Net: NetName=GPIO42 Pin=H2-7
+Added Pin To Net: NetName=GPIO42 Pin=U1-35
+Added Net: Name=GPIO42
+Added Pin To Net: NetName=GPIO45 Pin=H3-14
+Added Pin To Net: NetName=GPIO45 Pin=U1-26
+Added Net: Name=GPIO45
+Added Pin To Net: NetName=GPIO46 Pin=H3-4
+Added Pin To Net: NetName=GPIO46 Pin=U1-16
+Added Net: Name=GPIO46
+Added Pin To Net: NetName=GPIO47 Pin=H3-12
+Added Pin To Net: NetName=GPIO47 Pin=U1-24
+Added Net: Name=GPIO47
+Added Pin To Net: NetName=GPIO48 Pin=H3-13
+Added Pin To Net: NetName=GPIO48 Pin=U1-25
+Added Net: Name=GPIO48
+Added Pin To Net: NetName=MCU_BOOT Pin=C4-1
+Added Pin To Net: NetName=MCU_BOOT Pin=SW2-3
+Added Pin To Net: NetName=MCU_BOOT Pin=SW2-4
+Added Pin To Net: NetName=MCU_BOOT Pin=U1-27
+Added Net: Name=MCU_BOOT
+Added Pin To Net: NetName=MCU_EN Pin=C3-1
+Added Pin To Net: NetName=MCU_EN Pin=R?-2
+Added Pin To Net: NetName=MCU_EN Pin=SW1-3
+Added Pin To Net: NetName=MCU_EN Pin=SW1-4
+Added Pin To Net: NetName=MCU_EN Pin=U1-3
+Added Net: Name=MCU_EN
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=J1-4
+Added Pin To Net: NetName=NetC5_1 Pin=J1-13
+Added Pin To Net: NetName=NetC5_1 Pin=U3-1
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=U3-3
+Added Pin To Net: NetName=NetC6_1 Pin=U7-1
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetH5_2 Pin=H5-2
+Added Pin To Net: NetName=NetH5_2 Pin=R14-1
+Added Net: Name=NetH5_2
+Added Pin To Net: NetName=NetH5_3 Pin=H5-3
+Added Pin To Net: NetName=NetH5_3 Pin=R17-1
+Added Net: Name=NetH5_3
+Added Pin To Net: NetName=NetJ1_5 Pin=J1-5
+Added Pin To Net: NetName=NetJ1_5 Pin=R28-2
+Added Net: Name=NetJ1_5
+Added Pin To Net: NetName=NetJ1_11 Pin=J1-11
+Added Pin To Net: NetName=NetJ1_11 Pin=R29-2
+Added Net: Name=NetJ1_11
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=R3-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-2
+Added Pin To Net: NetName=NetQ2_1 Pin=R4-2
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R5-2
+Added Pin To Net: NetName=NetQ3_1 Pin=R7-2
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R6-2
+Added Pin To Net: NetName=NetQ4_1 Pin=R8-2
+Added Net: Name=NetQ4_1
+Added Pin To Net: NetName=NetQ5_1 Pin=Q5-1
+Added Pin To Net: NetName=NetQ5_1 Pin=R9-2
+Added Pin To Net: NetName=NetQ5_1 Pin=R11-2
+Added Net: Name=NetQ5_1
+Added Pin To Net: NetName=NetQ6_1 Pin=Q6-1
+Added Pin To Net: NetName=NetQ6_1 Pin=R10-2
+Added Pin To Net: NetName=NetQ6_1 Pin=R12-2
+Added Net: Name=NetQ6_1
+Added Pin To Net: NetName=NetQ7_1 Pin=Q7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R15-2
+Added Pin To Net: NetName=NetQ7_1 Pin=R18-2
+Added Net: Name=NetQ7_1
+Added Pin To Net: NetName=NetQ8_1 Pin=Q8-1
+Added Pin To Net: NetName=NetQ8_1 Pin=R16-2
+Added Pin To Net: NetName=NetQ8_1 Pin=R19-2
+Added Net: Name=NetQ8_1
+Added Pin To Net: NetName=NetQ9_1 Pin=Q9-1
+Added Pin To Net: NetName=NetQ9_1 Pin=R20-2
+Added Pin To Net: NetName=NetQ9_1 Pin=R22-2
+Added Net: Name=NetQ9_1
+Added Pin To Net: NetName=NetQ10_1 Pin=Q10-1
+Added Pin To Net: NetName=NetQ10_1 Pin=R21-2
+Added Pin To Net: NetName=NetQ10_1 Pin=R23-2
+Added Net: Name=NetQ10_1
+Added Pin To Net: NetName=NetQ11_1 Pin=Q11-1
+Added Pin To Net: NetName=NetQ11_1 Pin=R24-2
+Added Pin To Net: NetName=NetQ11_1 Pin=R26-2
+Added Net: Name=NetQ11_1
+Added Pin To Net: NetName=NetQ12_1 Pin=Q12-1
+Added Pin To Net: NetName=NetQ12_1 Pin=R25-2
+Added Pin To Net: NetName=NetQ12_1 Pin=R27-2
+Added Net: Name=NetQ12_1
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=U6-15
+Added Net: Name=NetR30_1
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=R31-1
+Added Pin To Net: NetName=NetR30_2 Pin=R31-2
+Added Net: Name=NetR30_2
+Added Pin To Net: NetName=NetU4_9 Pin=U4-9
+Added Pin To Net: NetName=NetU4_9 Pin=U5-14
+Added Net: Name=NetU4_9
+Added Pin To Net: NetName=ROW_1 Pin=D1-1
+Added Pin To Net: NetName=ROW_1 Pin=D2-1
+Added Pin To Net: NetName=ROW_1 Pin=D3-1
+Added Pin To Net: NetName=ROW_1 Pin=D4-1
+Added Pin To Net: NetName=ROW_1 Pin=D5-1
+Added Pin To Net: NetName=ROW_1 Pin=D6-1
+Added Pin To Net: NetName=ROW_1 Pin=D7-1
+Added Pin To Net: NetName=ROW_1 Pin=D8-1
+Added Pin To Net: NetName=ROW_1 Pin=D9-1
+Added Pin To Net: NetName=ROW_1 Pin=D10-1
+Added Pin To Net: NetName=ROW_1 Pin=D11-1
+Added Pin To Net: NetName=ROW_1 Pin=D12-1
+Added Pin To Net: NetName=ROW_1 Pin=U6-5
+Added Net: Name=ROW_1
+Added Pin To Net: NetName=ROW_2 Pin=D13-1
+Added Pin To Net: NetName=ROW_2 Pin=D14-1
+Added Pin To Net: NetName=ROW_2 Pin=D15-1
+Added Pin To Net: NetName=ROW_2 Pin=D16-1
+Added Pin To Net: NetName=ROW_2 Pin=D17-1
+Added Pin To Net: NetName=ROW_2 Pin=D18-1
+Added Pin To Net: NetName=ROW_2 Pin=D19-1
+Added Pin To Net: NetName=ROW_2 Pin=D20-1
+Added Pin To Net: NetName=ROW_2 Pin=D21-1
+Added Pin To Net: NetName=ROW_2 Pin=D22-1
+Added Pin To Net: NetName=ROW_2 Pin=D23-1
+Added Pin To Net: NetName=ROW_2 Pin=D24-1
+Added Pin To Net: NetName=ROW_2 Pin=U6-6
+Added Net: Name=ROW_2
+Added Pin To Net: NetName=ROW_3 Pin=D25-1
+Added Pin To Net: NetName=ROW_3 Pin=D26-1
+Added Pin To Net: NetName=ROW_3 Pin=D27-1
+Added Pin To Net: NetName=ROW_3 Pin=D28-1
+Added Pin To Net: NetName=ROW_3 Pin=D29-1
+Added Pin To Net: NetName=ROW_3 Pin=D30-1
+Added Pin To Net: NetName=ROW_3 Pin=D31-1
+Added Pin To Net: NetName=ROW_3 Pin=D32-1
+Added Pin To Net: NetName=ROW_3 Pin=D33-1
+Added Pin To Net: NetName=ROW_3 Pin=D34-1
+Added Pin To Net: NetName=ROW_3 Pin=D35-1
+Added Pin To Net: NetName=ROW_3 Pin=D36-1
+Added Pin To Net: NetName=ROW_3 Pin=U6-7
+Added Net: Name=ROW_3
+Added Pin To Net: NetName=ROW_4 Pin=D37-1
+Added Pin To Net: NetName=ROW_4 Pin=D38-1
+Added Pin To Net: NetName=ROW_4 Pin=D39-1
+Added Pin To Net: NetName=ROW_4 Pin=D40-1
+Added Pin To Net: NetName=ROW_4 Pin=D41-1
+Added Pin To Net: NetName=ROW_4 Pin=D42-1
+Added Pin To Net: NetName=ROW_4 Pin=D43-1
+Added Pin To Net: NetName=ROW_4 Pin=D44-1
+Added Pin To Net: NetName=ROW_4 Pin=D45-1
+Added Pin To Net: NetName=ROW_4 Pin=D46-1
+Added Pin To Net: NetName=ROW_4 Pin=D47-1
+Added Pin To Net: NetName=ROW_4 Pin=D48-1
+Added Pin To Net: NetName=ROW_4 Pin=U6-8
+Added Net: Name=ROW_4
+Added Pin To Net: NetName=ROW_5 Pin=D49-1
+Added Pin To Net: NetName=ROW_5 Pin=D50-1
+Added Pin To Net: NetName=ROW_5 Pin=D51-1
+Added Pin To Net: NetName=ROW_5 Pin=D52-1
+Added Pin To Net: NetName=ROW_5 Pin=D53-1
+Added Pin To Net: NetName=ROW_5 Pin=D54-1
+Added Pin To Net: NetName=ROW_5 Pin=D55-1
+Added Pin To Net: NetName=ROW_5 Pin=D56-1
+Added Pin To Net: NetName=ROW_5 Pin=D57-1
+Added Pin To Net: NetName=ROW_5 Pin=D58-1
+Added Pin To Net: NetName=ROW_5 Pin=D59-1
+Added Pin To Net: NetName=ROW_5 Pin=D60-1
+Added Pin To Net: NetName=ROW_5 Pin=U6-9
+Added Net: Name=ROW_5
+Added Pin To Net: NetName=ROW_6 Pin=D61-1
+Added Pin To Net: NetName=ROW_6 Pin=D62-1
+Added Pin To Net: NetName=ROW_6 Pin=D63-1
+Added Pin To Net: NetName=ROW_6 Pin=D64-1
+Added Pin To Net: NetName=ROW_6 Pin=D65-1
+Added Pin To Net: NetName=ROW_6 Pin=D66-1
+Added Pin To Net: NetName=ROW_6 Pin=D67-1
+Added Pin To Net: NetName=ROW_6 Pin=D68-1
+Added Pin To Net: NetName=ROW_6 Pin=D69-1
+Added Pin To Net: NetName=ROW_6 Pin=D70-1
+Added Pin To Net: NetName=ROW_6 Pin=D71-1
+Added Pin To Net: NetName=ROW_6 Pin=D72-1
+Added Pin To Net: NetName=ROW_6 Pin=U6-10
+Added Net: Name=ROW_6
+Added Pin To Net: NetName=ROW_7 Pin=D73-1
+Added Pin To Net: NetName=ROW_7 Pin=D74-1
+Added Pin To Net: NetName=ROW_7 Pin=D75-1
+Added Pin To Net: NetName=ROW_7 Pin=D76-1
+Added Pin To Net: NetName=ROW_7 Pin=D77-1
+Added Pin To Net: NetName=ROW_7 Pin=D78-1
+Added Pin To Net: NetName=ROW_7 Pin=D79-1
+Added Pin To Net: NetName=ROW_7 Pin=D80-1
+Added Pin To Net: NetName=ROW_7 Pin=D81-1
+Added Pin To Net: NetName=ROW_7 Pin=D82-1
+Added Pin To Net: NetName=ROW_7 Pin=D83-1
+Added Pin To Net: NetName=ROW_7 Pin=D84-1
+Added Pin To Net: NetName=ROW_7 Pin=U6-11
+Added Net: Name=ROW_7
+Added Pin To Net: NetName=ROW_8 Pin=D85-1
+Added Pin To Net: NetName=ROW_8 Pin=D86-1
+Added Pin To Net: NetName=ROW_8 Pin=D87-1
+Added Pin To Net: NetName=ROW_8 Pin=D88-1
+Added Pin To Net: NetName=ROW_8 Pin=D89-1
+Added Pin To Net: NetName=ROW_8 Pin=D90-1
+Added Pin To Net: NetName=ROW_8 Pin=D91-1
+Added Pin To Net: NetName=ROW_8 Pin=D92-1
+Added Pin To Net: NetName=ROW_8 Pin=D93-1
+Added Pin To Net: NetName=ROW_8 Pin=D94-1
+Added Pin To Net: NetName=ROW_8 Pin=D95-1
+Added Pin To Net: NetName=ROW_8 Pin=D96-1
+Added Pin To Net: NetName=ROW_8 Pin=U6-12
+Added Net: Name=ROW_8
+Added Pin To Net: NetName=SIG_COL_1 Pin=R3-1
+Added Pin To Net: NetName=SIG_COL_1 Pin=U4-15
+Added Net: Name=SIG_COL_1
+Added Pin To Net: NetName=SIG_COL_2 Pin=R7-1
+Added Pin To Net: NetName=SIG_COL_2 Pin=U4-1
+Added Net: Name=SIG_COL_2
+Added Pin To Net: NetName=SIG_COL_3 Pin=R11-1
+Added Pin To Net: NetName=SIG_COL_3 Pin=U4-2
+Added Net: Name=SIG_COL_3
+Added Pin To Net: NetName=SIG_COL_4 Pin=R18-1
+Added Pin To Net: NetName=SIG_COL_4 Pin=U4-3
+Added Net: Name=SIG_COL_4
+Added Pin To Net: NetName=SIG_COL_5 Pin=R22-1
+Added Pin To Net: NetName=SIG_COL_5 Pin=U4-4
+Added Net: Name=SIG_COL_5
+Added Pin To Net: NetName=SIG_COL_6 Pin=R26-1
+Added Pin To Net: NetName=SIG_COL_6 Pin=U4-5
+Added Net: Name=SIG_COL_6
+Added Pin To Net: NetName=SIG_COL_7 Pin=R4-1
+Added Pin To Net: NetName=SIG_COL_7 Pin=U4-6
+Added Net: Name=SIG_COL_7
+Added Pin To Net: NetName=SIG_COL_8 Pin=R8-1
+Added Pin To Net: NetName=SIG_COL_8 Pin=U4-7
+Added Net: Name=SIG_COL_8
+Added Pin To Net: NetName=SIG_COL_9 Pin=R12-1
+Added Pin To Net: NetName=SIG_COL_9 Pin=U5-15
+Added Net: Name=SIG_COL_9
+Added Pin To Net: NetName=SIG_COL_10 Pin=R19-1
+Added Pin To Net: NetName=SIG_COL_10 Pin=U5-1
+Added Net: Name=SIG_COL_10
+Added Pin To Net: NetName=SIG_COL_11 Pin=R23-1
+Added Pin To Net: NetName=SIG_COL_11 Pin=U5-2
+Added Net: Name=SIG_COL_11
+Added Pin To Net: NetName=SIG_COL_12 Pin=R27-1
+Added Pin To Net: NetName=SIG_COL_12 Pin=U5-3
+Added Net: Name=SIG_COL_12
+Added Pin To Net: NetName=UPDI_RX Pin=H2-6
+Added Pin To Net: NetName=UPDI_RX Pin=R17-2
+Added Pin To Net: NetName=UPDI_RX Pin=U1-36
+Added Net: Name=UPDI_RX
+Added Pin To Net: NetName=UPDI_TX Pin=H2-5
+Added Pin To Net: NetName=UPDI_TX Pin=R14-2
+Added Pin To Net: NetName=UPDI_TX Pin=U1-37
+Added Net: Name=UPDI_TX
+Added Pin To Net: NetName=V_MCU Pin=H4-7
+Added Pin To Net: NetName=V_MCU Pin=U2-1
+Added Net: Name=V_MCU
+Added Pin To Net: NetName=VCC_1 Pin=H4-2
+Added Net: Name=VCC_1
+Added Pin To Net: NetName=VCC_2 Pin=H4-4
+Added Net: Name=VCC_2
+Added Class: Name=ESP32_LED_Matrix
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4

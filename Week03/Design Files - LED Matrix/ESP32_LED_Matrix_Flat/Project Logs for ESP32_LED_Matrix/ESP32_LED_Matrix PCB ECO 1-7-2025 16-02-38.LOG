@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=UPDI_TX Pin=H5-2
+Removed Pin From Net: NetName=UPDI_RX Pin=H5-3
+Added Pin To Net: NetName=UPDI_RX Pin=H5-2
+Added Pin To Net: NetName=UPDI_TX Pin=H5-3

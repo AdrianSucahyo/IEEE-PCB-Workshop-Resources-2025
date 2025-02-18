@@ -1,0 +1,44 @@
+Change Component Designator: OldDesignator=H4 NewDesignator=H1
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Added Component: Designator=H2(Header_1X12)
+Added Component: Designator=H3(Header_1X12)
+Added Component: Designator=H4(Header_1X12)
+Added Pin To Net: NetName=+3.3 Pin=H2-1
+Added Pin To Net: NetName=COL_SH_CP Pin=H2-2
+Added Pin To Net: NetName=COL_ST_CP Pin=H2-3
+Added Pin To Net: NetName=COL_DS Pin=H2-4
+Added Pin To Net: NetName=COL_OE Pin=H2-5
+Added Pin To Net: NetName=GPIO15 Pin=H2-6
+Added Pin To Net: NetName=GPIO16 Pin=H2-7
+Added Pin To Net: NetName=GPIO17 Pin=H2-8
+Added Pin To Net: NetName=GPIO18 Pin=H2-9
+Added Pin To Net: NetName=GPIO8 Pin=H2-10
+Added Pin To Net: NetName=GPIO19 Pin=H2-11
+Added Pin To Net: NetName=GPIO20 Pin=H2-12
+Added Pin To Net: NetName=GPIO1 Pin=H3-1
+Added Pin To Net: NetName=GPIO2 Pin=H3-2
+Added Pin To Net: NetName=UPDI_TX Pin=H3-3
+Added Pin To Net: NetName=UPDI_RX Pin=H3-4
+Added Pin To Net: NetName=GPIO42 Pin=H3-5
+Added Pin To Net: NetName=GPIO41 Pin=H3-6
+Added Pin To Net: NetName=GPIO40 Pin=H3-7
+Added Pin To Net: NetName=GPIO39 Pin=H3-8
+Added Pin To Net: NetName=GPIO38 Pin=H3-9
+Added Pin To Net: NetName=GPIO37 Pin=H3-10
+Added Pin To Net: NetName=GPIO36 Pin=H3-11
+Added Pin To Net: NetName=GPIO35 Pin=H3-12
+Added Pin To Net: NetName=GPIO3 Pin=H4-1
+Added Pin To Net: NetName=GPIO46 Pin=H4-2
+Added Pin To Net: NetName=GPIO9 Pin=H4-3
+Added Pin To Net: NetName=GPIO10 Pin=H4-4
+Added Pin To Net: NetName=GPIO11 Pin=H4-5
+Added Pin To Net: NetName=GPIO12 Pin=H4-6
+Added Pin To Net: NetName=GPIO13 Pin=H4-7
+Added Pin To Net: NetName=GPIO14 Pin=H4-8
+Added Pin To Net: NetName=GPIO21 Pin=H4-9
+Added Pin To Net: NetName=GPIO47 Pin=H4-10
+Added Pin To Net: NetName=GPIO48 Pin=H4-11
+Added Pin To Net: NetName=GPIO45 Pin=H4-12
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component H2 Header
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component H3 Header
+Added Member To Class: ClassName=ESP32_LED_Matrix Member=Component H4 Header
