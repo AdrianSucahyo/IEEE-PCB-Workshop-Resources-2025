@@ -1,0 +1,5193 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "59142a0c-b7f0-456f-9788-d156594ef267")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '+3.3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "+3.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_AZ1117CH2-3.3TRG1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Linear Voltage Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOT223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_0_AZ1117CH2-3.3TRG1_1_1_0"
+				(rectangle
+					(start 25.4 2.54)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_Capacitor - Non Polarized"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Non Polarized Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAP0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_0_Capacitor - Non Polarized_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -4.445) (xy 2.54 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.715) (xy -2.54 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_LM66100DCKR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5.5-V, 1.5-A 79-mΩ, Low IQ Ideal Diode With Input Polarity Protection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SC70-6*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_0_LM66100DCKR_1_0"
+				(rectangle
+					(start 22.86 2.54)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "~{CE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_USB Type C Connector 12 Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*USB{space}TYPE{space}C{space}12{space}PIN*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_0_USB Type C Connector 12 Pin_1_0"
+				(rectangle
+					(start 15.24 -5.08)
+					(end 0 -50.8)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -55.88 90)
+					(length 5.08)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -25.4 180)
+					(length 5.08)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -20.32 180)
+					(length 5.08)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 270)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 270)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -55.88 90)
+					(length 5.08)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -43.18 180)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -40.64 180)
+					(length 5.08)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -38.1 180)
+					(length 5.08)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -35.56 180)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -33.02 180)
+					(length 5.08)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -30.48 180)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -27.94 180)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_mirrored_8-Pin Header"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Header_1X8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_0_mirrored_8-Pin Header_1_0"
+				(rectangle
+					(start -5.08 2.54)
+					(end -10.16 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_1_Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_1_Resistor_1_0"
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 2.54 0.635) (xy 7.62 0.635) (xy 7.62 -0.635) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_2_Resistor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power Supply_2_Resistor_1_0"
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy -0.635 2.54) (xy -0.635 7.62) (xy 0.635 7.62) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC_1"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC_1'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_1_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_2_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC_2"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC_2'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_2_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32_LED_Matrix_Hierarchal-altium-import:V_MCU_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "V_MCU"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'V_MCU'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "V_MCU_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "V_MCU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 99.06 83.0072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d812b91-c21b-4ccd-b13a-a4835e814666")
+	)
+	(junction
+		(at 40.64 110.9472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4304f1fc-da59-4e55-bbe8-3aeb4c8b6ec9")
+	)
+	(junction
+		(at 48.26 49.9872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4568cf91-14be-4280-bda9-bc0847d8802d")
+	)
+	(junction
+		(at 116.84 189.6872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a3129c-0fad-4b96-b5ea-245359de1b5c")
+	)
+	(junction
+		(at 129.54 161.7472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541e1760-558b-4313-8dec-89be0fc1202a")
+	)
+	(junction
+		(at 160.02 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f695746-2695-4536-9e75-55af90a4e8dc")
+	)
+	(junction
+		(at 114.3 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60daa435-2b29-43b7-872f-c3979e1d2e0b")
+	)
+	(junction
+		(at 66.04 95.7072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f157b7a-ba68-496d-b58a-fff35719c902")
+	)
+	(junction
+		(at 83.82 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80b4fc92-2ab3-4086-a559-e77c4b0b7e8f")
+	)
+	(junction
+		(at 73.66 113.4872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b6ab14-9048-45c2-8da0-430446bfd9b0")
+	)
+	(junction
+		(at 238.76 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e96bd3a-2d72-47bc-b49e-39e7ed9726a8")
+	)
+	(junction
+		(at 58.42 159.2072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b435e5-f78d-4193-ac89-84a8d4ac2283")
+	)
+	(junction
+		(at 96.52 85.5472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9575a1b-b001-4950-9298-9a93f25b2701")
+	)
+	(junction
+		(at 58.42 156.6672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4e0f2d-10c7-420c-9e1f-e445f1b41ffe")
+	)
+	(junction
+		(at 58.42 151.5872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e370c3d7-d548-4399-81aa-aec41e95cdca")
+	)
+	(junction
+		(at 58.42 164.2872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff7deaa-4a3d-40af-93e8-908a5db265dc")
+	)
+	(junction
+		(at 71.12 161.7472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faefd00b-a1a8-4533-bd6d-e1cca7eb2240")
+	)
+	(junction
+		(at 48.26 110.9472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fefd2aa3-41ef-4724-b79b-011a5dcabc76")
+	)
+	(no_connect
+		(at 226.06 75.3872)
+		(uuid "2df3e18e-9879-4d1d-bc28-ea0c394757b4")
+	)
+	(no_connect
+		(at 114.3 166.8272)
+		(uuid "39d40de4-fa67-4bc8-903d-bb96213c63c3")
+	)
+	(no_connect
+		(at 53.34 154.1272)
+		(uuid "be0f909c-4738-4fe5-a057-97004c756e89")
+	)
+	(no_connect
+		(at 63.5 72.8472)
+		(uuid "fdb78a99-7609-47e8-a6bb-206ff42bb980")
+	)
+	(no_connect
+		(at 63.5 88.0872)
+		(uuid "fea629c0-1f37-4ba0-9783-2b4894a837ab")
+	)
+	(wire
+		(pts
+			(xy 114.3 70.3072) (xy 83.82 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05532b35-ce0f-43ba-ac74-798b3f7a4775")
+	)
+	(wire
+		(pts
+			(xy 83.82 184.6072) (xy 83.82 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f4bd9e-8036-4be6-8813-725952b20503")
+	)
+	(wire
+		(pts
+			(xy 114.3 70.3072) (xy 114.3 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072d7988-2905-44f1-987b-dc249bb0b3c7")
+	)
+	(wire
+		(pts
+			(xy 83.82 70.3072) (xy 63.5 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08595b74-afdd-49fb-a9af-8241f42ca9dd")
+	)
+	(wire
+		(pts
+			(xy 114.3 164.2872) (xy 116.84 164.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095748d0-0fac-49a0-b871-541aa98f8d81")
+	)
+	(wire
+		(pts
+			(xy 228.6 72.8472) (xy 228.6 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11265774-b3e5-4e31-8096-c2baa43c1e96")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.5472) (xy 114.3 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f92e58-3c93-4f72-b85d-41dd9b1a5bc5")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.9872) (xy 48.26 52.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1971ca4c-86c4-4793-953e-3f61fc9aaa57")
+	)
+	(wire
+		(pts
+			(xy 83.82 166.8272) (xy 86.36 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1ab2dd-f573-4188-ab9a-f8e0f264058a")
+	)
+	(wire
+		(pts
+			(xy 160.02 65.2272) (xy 160.02 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203d883a-0c26-4472-a785-548c29f0a596")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.7872) (xy 73.66 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2174de6d-6e32-4348-9154-f2276b31d64f")
+	)
+	(wire
+		(pts
+			(xy 119.38 70.3072) (xy 114.3 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a8b2c3-b52b-44d5-825f-f277d32022a9")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.1272) (xy 68.58 154.1272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256109a9-799b-4b64-b551-5f27fcb7d4d1")
+	)
+	(wire
+		(pts
+			(xy 81.28 110.9472) (xy 81.28 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2f0537-c5f4-44ef-bba9-0b6402ec8d1f")
+	)
+	(wire
+		(pts
+			(xy 48.26 110.9472) (xy 40.64 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0cec63-e87a-47ef-9674-131cc5c7c7e6")
+	)
+	(wire
+		(pts
+			(xy 53.34 151.5872) (xy 58.42 151.5872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310eab2f-b364-4966-9a59-20bd58443bc5")
+	)
+	(wire
+		(pts
+			(xy 58.42 159.2072) (xy 58.42 156.6672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3777f489-f0b5-42e1-a25a-1585b0c2bcef")
+	)
+	(wire
+		(pts
+			(xy 53.34 164.2872) (xy 58.42 164.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d72aafd-2771-4150-82a9-04d3317498fa")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.7072) (xy 66.04 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd8e376-0660-40d8-a8b5-f6a2353d4dd2")
+	)
+	(wire
+		(pts
+			(xy 83.82 70.3072) (xy 83.82 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc6508e-8861-4aad-9bdd-6de8e0886ff9")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.0072) (xy 63.5 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fb800e-1061-45cd-9a9f-cdc196e0a78f")
+	)
+	(wire
+		(pts
+			(xy 238.76 72.8472) (xy 238.76 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b824dd5-3e30-4349-8a72-9e13681932f3")
+	)
+	(wire
+		(pts
+			(xy 66.04 95.7072) (xy 66.04 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e116557-5001-4f4a-a6aa-8f74d863422e")
+	)
+	(wire
+		(pts
+			(xy 160.02 75.3872) (xy 160.02 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fce6ee8-a495-44d7-a569-82ef6b14dee7")
+	)
+	(wire
+		(pts
+			(xy 63.5 80.4672) (xy 96.52 80.4672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512f11ac-875d-49c8-9d68-3ffeb165b2a4")
+	)
+	(wire
+		(pts
+			(xy 71.12 161.7472) (xy 86.36 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c74552-6a0c-482d-bc54-2f981d9413e0")
+	)
+	(wire
+		(pts
+			(xy 63.5 184.6072) (xy 83.82 184.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533fe23b-3f14-441d-b2a9-2ce79ffbf366")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.6672) (xy 58.42 156.6672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55106b4f-4944-4e1b-b738-c7cee062ba3e")
+	)
+	(wire
+		(pts
+			(xy 152.4 90.6272) (xy 152.4 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559e8f6a-0f66-499e-9d49-05b8b11a0ec1")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.1672) (xy 63.5 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582984b0-c806-4214-a433-2ab2d215e07a")
+	)
+	(wire
+		(pts
+			(xy 58.42 164.2872) (xy 86.36 164.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596b6b93-8ca2-4c9d-a283-5a8b53d64024")
+	)
+	(wire
+		(pts
+			(xy 116.84 189.6872) (xy 63.5 189.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f04ac3e-251f-4dbc-9a28-74279ba1db18")
+	)
+	(wire
+		(pts
+			(xy 40.64 110.9472) (xy 40.64 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fda279a-b842-4e0a-aaed-366561737869")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.5472) (xy 160.02 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61484ab3-749b-404c-af14-b88434c3c0a1")
+	)
+	(wire
+		(pts
+			(xy 58.42 159.2072) (xy 53.34 159.2072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a656e5e-bfe7-4043-b1a0-25afe78ddff6")
+	)
+	(wire
+		(pts
+			(xy 160.02 70.3072) (xy 149.86 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b28e335-d2c5-4ca1-aa4b-84a55b3ebfa1")
+	)
+	(wire
+		(pts
+			(xy 195.58 72.8472) (xy 195.58 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1e4fbf-d07d-4f14-98b4-c96b697e50ea")
+	)
+	(wire
+		(pts
+			(xy 63.5 75.3872) (xy 81.28 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4a39f3-23c8-4900-a3a3-9f45f5cae9a4")
+	)
+	(wire
+		(pts
+			(xy 238.76 65.2272) (xy 238.76 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee7796f-6f76-42b4-9f90-b1037ca4bed8")
+	)
+	(wire
+		(pts
+			(xy 96.52 80.4672) (xy 96.52 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f271795-bcb8-4d42-bd34-102b3bf67b89")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.5472) (xy 63.5 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdbaa83-4f10-4d98-a208-a837ad4c3bfb")
+	)
+	(wire
+		(pts
+			(xy 99.06 77.9272) (xy 63.5 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7300c9a6-a728-4210-8aef-f53a173e6f93")
+	)
+	(polyline
+		(pts
+			(xy 287.02 133.8072) (xy 5.08 133.8072)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "7c26f9cf-16a2-4e75-9da8-369b75afdfff")
+	)
+	(wire
+		(pts
+			(xy 142.24 189.6872) (xy 142.24 184.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c79ca6d-b281-407a-99bc-9e8c0d05061c")
+	)
+	(polyline
+		(pts
+			(xy 60.96 37.2872) (xy 60.96 24.5872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7db1eb90-cd32-4651-a555-61f9be921c0c")
+	)
+	(wire
+		(pts
+			(xy 129.54 159.2072) (xy 129.54 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee32c5d-3a59-4182-b656-05c6a30ce1ac")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.4872) (xy 73.66 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4d2c96-0772-4caf-8f6a-0af19d2610c9")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.0072) (xy 99.06 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811a8f51-4602-4e35-86c4-012d95f2119c")
+	)
+	(wire
+		(pts
+			(xy 116.84 164.2872) (xy 116.84 189.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8564f64c-3027-46c8-bb69-1b2226c993c7")
+	)
+	(wire
+		(pts
+			(xy 160.02 70.3072) (xy 198.12 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870a57ab-c58c-4db9-af77-c798183d33b6")
+	)
+	(wire
+		(pts
+			(xy 99.06 110.9472) (xy 99.06 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9a075e-27e0-4a53-9caa-a21d258a213c")
+	)
+	(wire
+		(pts
+			(xy 129.54 174.4472) (xy 129.54 176.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efb8750-143f-4ae1-8cfa-f8515bbdc82a")
+	)
+	(wire
+		(pts
+			(xy 66.04 113.4872) (xy 73.66 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902fc4f2-6ccf-4611-a71e-792ad05266e9")
+	)
+	(wire
+		(pts
+			(xy 58.42 156.6672) (xy 58.42 151.5872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927831b6-cae7-4ab2-9a03-a81df3017383")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.6272) (xy 63.5 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da6c6b4-43f0-4d0e-9e9c-ad3d82b4e1aa")
+	)
+	(wire
+		(pts
+			(xy 226.06 72.8472) (xy 228.6 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb71b25-97dd-47a4-89e0-9b169276ae3c")
+	)
+	(wire
+		(pts
+			(xy 238.76 83.0072) (xy 238.76 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a031c90b-9080-4f4c-b91f-83de9603a803")
+	)
+	(wire
+		(pts
+			(xy 53.34 161.7472) (xy 71.12 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a112bc5c-1dc7-4298-808e-9f1e8d6bf435")
+	)
+	(wire
+		(pts
+			(xy 198.12 72.8472) (xy 195.58 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f36711-6508-43e3-aed1-5abe4f4c26af")
+	)
+	(wire
+		(pts
+			(xy 238.76 70.3072) (xy 226.06 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62084d6-b00a-48db-bae7-92ef38e539d1")
+	)
+	(wire
+		(pts
+			(xy 53.34 149.0472) (xy 68.58 149.0472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c41913-29e1-413c-a5ab-6c6d500f7317")
+	)
+	(wire
+		(pts
+			(xy 81.28 75.3872) (xy 81.28 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe572bf-952e-48a1-8636-ba8dbd3aed43")
+	)
+	(wire
+		(pts
+			(xy 40.64 110.9472) (xy 40.64 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b078ffa1-409e-4959-9067-309fccde48b7")
+	)
+	(wire
+		(pts
+			(xy 116.84 189.6872) (xy 119.38 189.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a06f6f-dddb-4888-b305-43b46cbf267b")
+	)
+	(wire
+		(pts
+			(xy 58.42 164.2872) (xy 58.42 169.3672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59639cb-e6ab-46e6-be7d-c02f4a34f62e")
+	)
+	(wire
+		(pts
+			(xy 66.04 95.7072) (xy 66.04 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd22a2d6-b395-4868-9276-608ce50bb5f0")
+	)
+	(wire
+		(pts
+			(xy 134.62 90.6272) (xy 134.62 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be71bc02-1224-4642-ac5e-452bedfdb52d")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.0272) (xy 73.66 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b93993-aa04-4d3e-9706-796686c36823")
+	)
+	(wire
+		(pts
+			(xy 129.54 189.6872) (xy 142.24 189.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf33613-247f-42b4-8658-a1bc90599c58")
+	)
+	(wire
+		(pts
+			(xy 50.8 108.4072) (xy 50.8 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce156a26-4ba0-43b4-86b5-7399a7c8d00c")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.4872) (xy 73.66 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3eed9f9-d15b-4412-916d-41ac132fab4f")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.9872) (xy 50.8 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b553a2-8c03-4026-b0f5-fce6d3e1134e")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.9472) (xy 99.06 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd11150c-b279-4e58-8292-bbb2105045a1")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.5472) (xy 96.52 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda877d2-3fec-47b4-8025-0d2fef9fe604")
+	)
+	(wire
+		(pts
+			(xy 58.42 146.5072) (xy 53.34 146.5072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdf7574-5d8c-4189-b902-428b720831f5")
+	)
+	(wire
+		(pts
+			(xy 129.54 161.7472) (xy 114.3 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0059581-230b-4333-b26f-1e6482d1b135")
+	)
+	(wire
+		(pts
+			(xy 129.54 164.2872) (xy 129.54 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e387167f-fd30-48a3-a409-7a48842d0e59")
+	)
+	(wire
+		(pts
+			(xy 58.42 164.2872) (xy 58.42 159.2072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46e8f78-2f9a-4283-a201-a8bbf330c4a4")
+	)
+	(wire
+		(pts
+			(xy 96.52 113.4872) (xy 114.3 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e603a3a9-908c-4089-9a21-6a134c1bd4e5")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.8472) (xy 149.86 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a569f1-6c30-4f9a-9bcf-9c78526994bb")
+	)
+	(wire
+		(pts
+			(xy 58.42 151.5872) (xy 58.42 146.5072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9eb798-a081-40ae-8d61-ba06c6b7c2d0")
+	)
+	(wire
+		(pts
+			(xy 177.8 65.2272) (xy 160.02 65.2272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed51ea4a-9bb4-4098-957f-e4fc3c8170cf")
+	)
+	(wire
+		(pts
+			(xy 40.64 49.9872) (xy 48.26 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f141477a-9984-4eeb-a649-056e3dea07e7")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.9872) (xy 50.8 52.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5474ab5-7209-4dc8-885f-d35a31d505f7")
+	)
+	(wire
+		(pts
+			(xy 175.26 75.3872) (xy 198.12 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f849cc4a-b5d2-47d0-a93f-1750e06d6234")
+	)
+	(wire
+		(pts
+			(xy 50.8 110.9472) (xy 48.26 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3f2647-75dd-401b-b9a8-7cfeb2a89dd0")
+	)
+	(wire
+		(pts
+			(xy 66.04 67.7672) (xy 63.5 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc868939-630a-414b-b348-ac30e84de03f")
+	)
+	(polyline
+		(pts
+			(xy 5.08 37.2872) (xy 60.96 37.2872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fceed494-c709-4f8c-8333-d09ddfc0bdcf")
+	)
+	(wire
+		(pts
+			(xy 48.26 110.9472) (xy 48.26 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd24cf9e-de5e-4cd1-9310-17100728d3ad")
+	)
+	(polyline
+		(pts
+			(xy 147.32 113.4872) (xy 137.16 113.4872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d07ddde1-7fea-462f-b0a5-925ca602ee97)
+	)
+	(text_box "USB"
+		(exclude_from_sim no)
+		(at 147.32 112.2172 0)
+		(size 15.24 2.54)
+		(stroke
+			(width 0.0002)
+			(type default)
+			(color 143 158 201 1)
+		)
+		(fill
+			(type color)
+			(color 237 242 251 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "3bfe3a24-6bc9-4dd2-839d-a498bd3f0b8f")
+	)
+	(text "Power Interface"
+		(exclude_from_sim no)
+		(at 7.62 141.4272 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "418eac5b-dfdb-4ca0-a7e4-a034b7121ab0")
+	)
+	(text "USB C Port + LV Power Supply"
+		(exclude_from_sim no)
+		(at 7.62 44.9072 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "88c7787c-66e1-46f6-a123-560425332efe")
+	)
+	(text "Power Supplies"
+		(exclude_from_sim no)
+		(at 10.16 34.7472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "c610e7c9-fa7d-42a6-9997-014bbb67629b")
+	)
+	(label "EXT_SUPP_EN"
+		(at 175.26 75.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d6a7e84-1336-4db1-a9a9-ac3e0f864dec")
+	)
+	(label "USB_SUPP_EN"
+		(at 177.8 65.2272 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad02240b-0e4e-4d0f-8182-417d5143ae89")
+	)
+	(label "USB_SUPP_EN"
+		(at 63.5 184.6072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceb3c499-019d-4d2b-af18-2b3bab07c171")
+	)
+	(label "EXT_SUPP_EN"
+		(at 63.5 189.6872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9825a26-4c9c-4fbe-82de-1c7debbf0801")
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_AZ1117CH2-3.3TRG1_1")
+		(at 119.38 70.3072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a9d5bf5-2df3-46f2-9e64-a7ce9537550e")
+		(property "Reference" "U?"
+			(at 124.46 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AZ1117CH2-3.3TRG1"
+			(at 124.46 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT223"
+			(at 119.38 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3V Linear Voltage Regulator"
+			(at 119.38 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393e2037-e2a8-4af4-81d0-60e7693e580f")
+		)
+		(pin "2"
+			(uuid "45bd3254-cfef-4f85-9d61-2d19bc68f501")
+		)
+		(pin "3"
+			(uuid "e5fd9219-4538-409f-914a-77ddb4f6671d")
+		)
+		(pin "4"
+			(uuid "6922135c-5c7a-4611-892b-8d77a16ab746")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 195.58 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d4c904e-dbed-44ae-87a1-bc6503ed6adc")
+		(property "Reference" "#PWR?"
+			(at 195.58 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3fedd55b-6c22-42f7-92b1-3573d5ed35c6")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_Capacitor - Non Polarized")
+		(at 114.3 75.3872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ecf9d58-0a59-402d-9cec-ff49502a1538")
+		(property "Reference" "C?"
+			(at 117.094 80.2132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 117.094 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 114.3 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 114.3 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8370c1ac-6629-4745-929c-8486fd97b290")
+		)
+		(pin "2"
+			(uuid "892b595b-7f03-4a99-8669-4bab908d830c")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 238.76 65.2272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f167308-b553-4974-90ce-c6ea9ce29597")
+		(property "Reference" "#PWR?"
+			(at 238.76 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 238.76 61.4172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e4296014-3ac6-451b-83f3-98f81fdd934f")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 40.64 116.0272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "162f8a50-74d0-4cc8-9686-ba71671a2cd8")
+		(property "Reference" "#PWR?"
+			(at 40.64 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 122.3772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5dc9f249-5957-4b82-8212-0273f8cb35c1")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:+3.3_BAR")
+		(at 129.54 159.2072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d073ae5-3b11-4f1f-9769-2bb5e3f3a9e9")
+		(property "Reference" "#PWR?"
+			(at 129.54 159.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3"
+			(at 129.54 155.3972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 159.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 159.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 159.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fcf113c5-b370-428a-83c5-c5004185a9ba")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_Capacitor - Non Polarized")
+		(at 129.54 164.2872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "270aa23c-a69b-498d-9134-9d9bf789974f")
+		(property "Reference" "C?"
+			(at 132.334 169.1132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 132.334 171.6532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca90a86b-7a8e-4851-89f2-7651f02e7825")
+		)
+		(pin "2"
+			(uuid "8f3ac1b0-a071-4f33-84d1-03cca3e20ee0")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 58.42 169.3672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f591c11-daee-41ce-bf3a-6d7eba8739d6")
+		(property "Reference" "#PWR?"
+			(at 58.42 169.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 175.7172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 169.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 169.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 169.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "389593e1-b56e-4579-87fc-8c8ab9092d7a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 238.76 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37223229-0f7e-499c-9e33-64c1e0202038")
+		(property "Reference" "#PWR?"
+			(at 238.76 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "517f8fe5-8ba5-4946-a47b-de7ce1825632")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_USB Type C Connector 12 Pin")
+		(at 43.18 52.5272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417e989d-0120-413e-8202-a1f6e306eb9f")
+		(property "Reference" "J?"
+			(at 64.008 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USB C"
+			(at 64.008 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "USB TYPE C 12 PIN"
+			(at 43.18 52.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 52.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 52.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95b4a492-7f3f-48c1-a0b3-6d9564511ac7")
+		)
+		(pin "5"
+			(uuid "c713d7e7-2252-4448-a3b2-241c6b4559dd")
+		)
+		(pin "7"
+			(uuid "c5b70175-422e-4f5a-9ddb-6157825eca29")
+		)
+		(pin "14"
+			(uuid "f6fab62b-9ea4-4380-916f-d10e318560ac")
+		)
+		(pin "15"
+			(uuid "1a29ba9a-1503-4231-8e65-77d2b5097bc0")
+		)
+		(pin "1"
+			(uuid "63375eec-247a-430f-8c58-342ed976ac49")
+		)
+		(pin "2"
+			(uuid "798278b2-51f4-455f-acf6-ef103fcb13ee")
+		)
+		(pin "4"
+			(uuid "2f020e0c-9496-483d-8c27-99408686a1a6")
+		)
+		(pin "6"
+			(uuid "b8604f4d-d3b5-4a85-b3ac-5d3a977649a8")
+		)
+		(pin "8"
+			(uuid "163cad0c-baf2-43c8-94b2-4e2fbd0453b3")
+		)
+		(pin "9"
+			(uuid "796a7cb8-33c4-4424-9d23-4414b194f4ff")
+		)
+		(pin "10"
+			(uuid "1836f630-939a-4242-b198-90cba4e38d92")
+		)
+		(pin "11"
+			(uuid "e2dff4fe-560d-4e9c-8915-94139e0e1d49")
+		)
+		(pin "12"
+			(uuid "cf04960c-67d7-47af-a11c-0574c1c8f32a")
+		)
+		(pin "13"
+			(uuid "dfe3999c-19e5-49e3-909c-4d419064b3e5")
+		)
+		(pin "16"
+			(uuid "1d827d6c-f654-4331-bc57-cb2545d93352")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_LM66100DCKR")
+		(at 86.36 161.7472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65249412-b2ae-41ba-a43f-b14f4fc23774")
+		(property "Reference" "U?"
+			(at 91.44 159.2072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM66100DCKR"
+			(at 91.44 171.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SC70-6"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.5-V, 1.5-A 79-mΩ, Low IQ Ideal Diode With Input Polarity Protection"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.ti.com/lit/gpn/LM66100"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Texas Instruments"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LM66100DCKR"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "595-LM66100DCKR"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "LM66100DCKR"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/lm66100dckr/texas-instruments?region=nac"
+			(at 86.36 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa88536a-0c81-4ff1-933b-98e7f3835d90")
+		)
+		(pin "2"
+			(uuid "222684c9-2738-46c6-b119-52076ab5208a")
+		)
+		(pin "3"
+			(uuid "5f388ba4-9683-461a-b051-3da7e95ff963")
+		)
+		(pin "6"
+			(uuid "8fca8380-6b20-4a91-a7ea-e3c2795447ed")
+		)
+		(pin "5"
+			(uuid "98dfc04a-34a3-4117-8c96-9cd67e85e708")
+		)
+		(pin "4"
+			(uuid "dc1cb5c1-9883-4a82-97e0-f2bf0c3cf1bd")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:V_MCU_BAR")
+		(at 142.24 184.6072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6842aa07-35c3-401c-86cf-581eff148409")
+		(property "Reference" "#PWR?"
+			(at 142.24 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MCU"
+			(at 142.24 180.7972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4cb12880-c002-427b-8e76-ef3e77674a4a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_1_BAR")
+		(at 68.58 149.0472 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cd67b27-e0d3-4dcf-ac55-7444b94a9e9a")
+		(property "Reference" "#PWR?"
+			(at 68.58 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_1"
+			(at 72.39 149.0472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9ba580b2-1bf2-49e5-a5ca-0a1a5c117e5e")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 114.3 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75491a53-5ab7-42d7-8ff1-724f122d2627")
+		(property "Reference" "#PWR?"
+			(at 114.3 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "17ce2842-4604-481c-8a2c-792fdb186113")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_2_Resistor")
+		(at 73.66 110.9472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e3ea76f-03ea-44ce-ac91-507bd4a19ba5")
+		(property "Reference" "R?"
+			(at 74.549 105.6132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.11k"
+			(at 74.549 108.1532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 73.66 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ab2283e-8e75-41f0-872a-e43c473931bc")
+		)
+		(pin "1"
+			(uuid "11d2e52f-4616-4fcc-956f-800453f9d76f")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 228.6 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95acd534-512a-4880-b45e-f03b43d97861")
+		(property "Reference" "#PWR?"
+			(at 228.6 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5e2c0350-33eb-4f4b-a3cf-2c039d3c0745")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_2_Resistor")
+		(at 81.28 110.9472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6b43518-d8c9-47eb-bda7-990cc3519a5f")
+		(property "Reference" "R?"
+			(at 82.169 105.6132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.11k"
+			(at 82.169 108.1532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 81.28 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1df02d0-09f0-4498-acba-06e9a2f9a86a")
+		)
+		(pin "1"
+			(uuid "a05828ed-4c04-4df7-a77d-9934f8129cc9")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_mirrored_8-Pin Header")
+		(at 53.34 146.5072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab411078-8597-43f7-89ce-63573b2cb22e")
+		(property "Reference" "H?"
+			(at 43.18 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Header"
+			(at 43.18 169.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Header_1X8"
+			(at 53.34 146.5072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 146.5072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-Pin Header"
+			(at 53.34 146.5072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 43.18 171.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7a867da-3d88-4fae-882d-3a96780221e3")
+		)
+		(pin "3"
+			(uuid "c4310b5f-518d-40a6-beb7-3bcdfbd34d6f")
+		)
+		(pin "4"
+			(uuid "4a0939fa-9253-4e3a-a505-157226e13ea9")
+		)
+		(pin "7"
+			(uuid "a2d71678-5137-48f8-a936-4972d19a7596")
+		)
+		(pin "5"
+			(uuid "39e17471-a2b6-446d-b48e-000b7600e61c")
+		)
+		(pin "1"
+			(uuid "8c40d94a-32d9-41e8-8038-2fd58e771004")
+		)
+		(pin "6"
+			(uuid "92a811a8-18f7-4467-b822-a75d22561e2e")
+		)
+		(pin "8"
+			(uuid "12202b8a-d94d-4458-bc2d-c5d507558c93")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "H?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:V_MCU_BAR")
+		(at 71.12 161.7472 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac497839-5ae5-4bca-ba78-60601cb84e2a")
+		(property "Reference" "#PWR?"
+			(at 71.12 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_MCU"
+			(at 71.12 157.9372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9acf213a-2749-4923-a75c-78e924c981d6")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_LM66100DCKR")
+		(at 198.12 70.3072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1574d56-bfa0-4462-b1d5-27adc694c308")
+		(property "Reference" "U?"
+			(at 203.2 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM66100DCKR"
+			(at 203.2 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SC70-6"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.5-V, 1.5-A 79-mΩ, Low IQ Ideal Diode With Input Polarity Protection"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.ti.com/lit/gpn/LM66100"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Texas Instruments"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LM66100DCKR"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "595-LM66100DCKR"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "LM66100DCKR"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/lm66100dckr/texas-instruments?region=nac"
+			(at 198.12 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7d3af498-3da9-4e7d-b12d-ba846e5b6dbc")
+		)
+		(pin "1"
+			(uuid "76ae1dc1-8f23-41fa-8f51-0a42c41c9d36")
+		)
+		(pin "3"
+			(uuid "2d07f880-2321-4696-a6c9-84445e0a3537")
+		)
+		(pin "2"
+			(uuid "7eedcd63-193f-44c9-b3b7-fe1c513dc04b")
+		)
+		(pin "6"
+			(uuid "293bbaa7-3e94-4db8-9d5b-85fe26ca5974")
+		)
+		(pin "4"
+			(uuid "f300c39b-24be-4b92-911a-bddfd0757069")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 73.66 116.0272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3beeb5f-e503-4d83-a950-865be0085a38")
+		(property "Reference" "#PWR?"
+			(at 73.66 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 122.3772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ab9f37ef-0a86-4ff4-92a6-c0a9b3631a6a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 152.4 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd9219db-8e8a-4ef1-99e7-dc3c5085d7f8")
+		(property "Reference" "#PWR?"
+			(at 152.4 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dc2d9f73-d045-4064-b7ab-807a54c8cf1d")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:VCC_2_BAR")
+		(at 68.58 154.1272 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b3747a-9cb0-455d-9f43-60076b209070")
+		(property "Reference" "#PWR?"
+			(at 68.58 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_2"
+			(at 72.39 154.1272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 154.1272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e11b8488-8c13-4e55-afe9-170cc0de582c")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 129.54 176.9872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca0ed4f6-4e5a-4b03-bbad-ad338d105c8f")
+		(property "Reference" "#PWR?"
+			(at 129.54 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 183.3372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 176.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5be81882-afaf-45b2-9fe5-06b09cd04d0c")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_1_Resistor")
+		(at 119.38 189.6872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf17a179-6adb-4f62-8d70-feee64a500c5")
+		(property "Reference" "R?"
+			(at 121.666 188.7982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.666 193.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RESC0805"
+			(at 119.38 189.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 189.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 189.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "064e1cae-cf35-43de-967d-66505b7656a1")
+		)
+		(pin "2"
+			(uuid "9c73509f-3a3a-4114-ae5e-57ffd474f0ea")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_Capacitor - Non Polarized")
+		(at 238.76 72.8472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dba7bbbf-ca62-4c19-bc4f-e77bb6da9971")
+		(property "Reference" "C?"
+			(at 241.554 77.6732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 241.554 80.2132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 238.76 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 238.76 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebd063ed-80a0-4370-857b-2e3ed975a08c")
+		)
+		(pin "1"
+			(uuid "d7f20d16-5241-458a-81d2-7e7fb80463fa")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:Power Supply_0_Capacitor - Non Polarized")
+		(at 160.02 75.3872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3b03469-bb53-4409-a24f-cef980bbf885")
+		(property "Reference" "C?"
+			(at 162.814 80.2132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 162.814 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAP0805"
+			(at 160.02 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non Polarized Capacitor"
+			(at 160.02 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dd85017-fb5c-41fe-a42d-332ef4d87504")
+		)
+		(pin "2"
+			(uuid "cf4ce6e6-e804-44c4-a45a-07a8f9c1d6af")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 160.02 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea48f6fc-b52e-411c-8819-20de4402fa93")
+		(property "Reference" "#PWR?"
+			(at 160.02 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "47440efb-2646-4d7a-bef6-f186e2b1390a")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32_LED_Matrix_Hierarchal-altium-import:GND_POWER_GROUND")
+		(at 134.62 90.6272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3404a61-cc80-4134-8945-73694a1561a0")
+		(property "Reference" "#PWR?"
+			(at 134.62 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 96.9772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f715dbc6-f4d5-40e5-8144-d9a3c493ea67")
+		)
+		(instances
+			(project ""
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 108.4072)
+		(size 22.86 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 143 158 201 1)
+		)
+		(fill
+			(color 237 242 251 1.0000)
+		)
+		(uuid "b33c8335-2c68-4cb8-b210-ae65eb1ead5a")
+		(property "Sheetname" "USB"
+			(at 114.3 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 128 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 114.3 116.6118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB-" passive
+			(at 114.3 110.9472 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2912c0d-1ccd-4e59-8d49-8de00a0ec371")
+		)
+		(pin "USB+" passive
+			(at 114.3 113.4872 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9ef4830-4348-4491-bc7d-5a6a46f170d1")
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2/c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3"
+					(page "Harness #")
+				)
+			)
+		)
+	)
+)

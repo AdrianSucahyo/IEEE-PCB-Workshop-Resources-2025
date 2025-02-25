@@ -1,0 +1,331 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f4123f17-5e8e-4fe0-ba04-aa638a2b51f2")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 215.9 108.4072) (xy 215.9 123.6472)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5136fe2a-2e4a-4744-b57a-33c0baaa5756")
+	)
+	(bus
+		(pts
+			(xy 218.44 123.6472) (xy 218.44 108.4072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "adf0d3a5-90fd-4bb3-a93d-f035f72d105c")
+	)
+	(polyline
+		(pts
+			(xy 157.48 95.7072) (xy 182.88 95.7072)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f168b47-685f-4255-b60d-5fe6c9b640b0)
+	)
+	(polyline
+		(pts
+			(xy 91.44 93.1672) (xy 114.3 93.1672)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aae6b48b-1b1e-4325-bc17-cead7b79b8e2)
+	)
+	(polyline
+		(pts
+			(xy 157.48 93.1672) (xy 182.88 93.1672)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c569381c-1ac6-4c95-91d0-622cc9514a8c)
+	)
+	(sheet
+		(at 182.88 123.6472)
+		(size 40.64 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "2d479107-a0c9-4091-8c04-933316fd92b3")
+		(property "Sheetname" "Designator"
+			(at 182.88 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_Matrix.kicad_sch"
+			(at 182.88 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "COL[0..11]" passive
+			(at 218.44 123.6472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a5f367a-31f8-418f-b362-be4982a3f27d")
+		)
+		(pin "ROW[0..7]" passive
+			(at 215.9 123.6472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e30ed2c-aef3-49b7-98c0-52c24641f07c")
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 80.4672)
+		(size 40.64 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "757e3406-0e26-4572-9ff1-f0c1b24a4d6b")
+		(property "Sheetname" "Designator"
+			(at 182.88 77.9272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_Matrix_Driver.kicad_sch"
+			(at 182.88 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "COL_SR" passive
+			(at 182.88 95.7072 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efe5f559-2001-4271-84b6-b61c0ff61fbd")
+		)
+		(pin "ROW_SR" passive
+			(at 182.88 93.1672 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41465114-aff5-4928-a58f-5d9753156b21")
+		)
+		(pin "ROW[0..7]" passive
+			(at 215.9 108.4072 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a434ce5-47ba-4243-8843-9105584e0d66")
+		)
+		(pin "COL[0..11]" passive
+			(at 218.44 108.4072 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c19cb488-e2b8-41c2-949d-f9c0f03c84f5")
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 80.4672)
+		(size 43.18 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "8a0cf0ff-6c27-454c-9efe-9aeb8fc4d8a0")
+		(property "Sheetname" "Microcontroller"
+			(at 114.3 77.9272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_Microcontroller.kicad_sch"
+			(at 114.3 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "COL_SR" passive
+			(at 157.48 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7578215f-6b81-4022-b4f5-5b834160bf46")
+		)
+		(pin "ROW_SR" passive
+			(at 157.48 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "762b4d9c-7718-4a34-bb63-0660d56bb030")
+		)
+		(pin "USB" passive
+			(at 114.3 93.1672 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1eb9719c-521f-45fa-8c94-20a599222cfa")
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 80.4672)
+		(size 40.64 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "c69d4f0b-a8e8-4b21-8bca-8d4c28798cc3")
+		(property "Sheetname" "Power Supply"
+			(at 50.8 77.9272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply.kicad_sch"
+			(at 50.8 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "USB" passive
+			(at 91.44 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88604ea4-43af-4d43-b3a2-fd7f65769359")
+		)
+		(instances
+			(project "ESP32_LED_Matrix_Hierarchal"
+				(path "/f4123f17-5e8e-4fe0-ba04-aa638a2b51f2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

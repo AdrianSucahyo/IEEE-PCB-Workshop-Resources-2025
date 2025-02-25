@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ESP32_LED_Matrix-altium-import")(type "KiCad")(uri "${KIPRJMOD}/ESP32_LED_Matrix-altium-import.kicad_sym")(options "")(descr ""))
+)
