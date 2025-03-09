@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ESP32_LED_Matrix_Heirarchal.PrjPcb]
+   Generated File[ESP32_LED_Matrix_Completed-RoundHoles.TXT]
+   Generated File[ESP32_LED_Matrix_Completed-SlotHoles.TXT]
+   Generated File[ESP32_LED_Matrix_Completed.LDP]
+   Generated File[ESP32_LED_Matrix_Completed.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:34:16 On 3/6/2025

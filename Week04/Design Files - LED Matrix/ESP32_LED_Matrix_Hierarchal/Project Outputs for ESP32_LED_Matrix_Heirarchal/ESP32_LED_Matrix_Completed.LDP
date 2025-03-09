@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\IEEE-PCB-Workshop-Resources-2025\Week04\Design Files - LED Matrix\ESP32_LED_Matrix_Hierarchal\ESP32_LED_Matrix_Completed.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=esp32_led_matrix_completed-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=esp32_led_matrix_completed-slotholes.txt|DrillLayers=gtl,gbl

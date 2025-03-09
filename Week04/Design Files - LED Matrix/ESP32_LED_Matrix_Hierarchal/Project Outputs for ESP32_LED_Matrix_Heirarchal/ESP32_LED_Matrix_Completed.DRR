@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ESP32_LED_Matrix_Completed.PcbDoc   3/6/2025  11:34:16
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ESP32_LED_Matrix_Completed-RoundHoles.TXT
+ASCII SlotHoles File : ESP32_LED_Matrix_Completed-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      14mil (0.35mm)                                            Round             551       PTH        54.46inch (1383.24mm)
+T2      24mil (0.6mm)                                             Slot              4         PTH        1.42inch (36.19mm)
+T3      25mil (0.63mm)                                            Round             4         PTH        0.34inch (8.67mm)
+T4      45mil (1.15mm)                                            Round             56        PTH        7.57inch (192.25mm)
+T5      140mil (3.556mm)                                          Round             4         PTH        7.58inch (192.50mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              619
+
+Total Processing Time (hh:mm:ss) : 00:00:00
