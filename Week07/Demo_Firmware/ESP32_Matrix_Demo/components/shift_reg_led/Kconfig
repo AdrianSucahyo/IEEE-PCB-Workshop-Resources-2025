@@ -1,0 +1,23 @@
+menu "LED Shift Register"
+    
+    config SHIFT_REGISTER_LED_CLK_PIN
+        int "Shift Register Clock Pin"
+        range -1 46
+        default 8
+    
+    config SHIFT_REGISTER_LED_LATCH_PIN
+        int "Shift Register Latch Pin"
+        range -1 46
+        default 18
+    
+    config SHIFT_REGISTER_LED_ENABLE_PIN
+        int "Shift Register Enable Pin"
+        range -1 46
+        default 17
+    
+    config SHIFT_REGISTER_LED_DATA_PIN
+        int "Shift Register Data Pin"
+        range -1 46
+        default 16
+
+endmenu

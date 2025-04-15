@@ -1,0 +1,21 @@
+dependencies:
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+  shift_reg:
+    component_hash: null
+    source:
+      path: D:\IEEE-PCB-Workshop\Demo_Firmware\ESP32_Matrix_Demo\components\shift_reg
+      type: local
+    version: 1.0.0
+  shift_reg_led:
+    component_hash: null
+    source:
+      path: D:\IEEE-PCB-Workshop\Demo_Firmware\ESP32_Matrix_Demo\components\shift_reg_led
+      type: local
+    version: 1.0.0
+manifest_hash: 65be215440e1a931f02b35de1673eea4d890be964faf2121ad4cd4ed6b92d18f
+target: esp32s3
+version: 1.0.0

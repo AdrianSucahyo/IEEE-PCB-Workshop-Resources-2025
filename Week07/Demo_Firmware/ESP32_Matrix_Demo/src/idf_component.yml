@@ -1,0 +1,11 @@
+dependencies:
+  ## Required IDF version
+  idf: ">=5.0"
+
+  shift_reg:
+    version: "^1.0.0"
+    override_path: "../components/shift_reg"
+
+  shift_reg_led:
+    version: "^1.0.0"
+    override_path: "../components/shift_reg_led"
